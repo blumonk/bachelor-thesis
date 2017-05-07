@@ -1,0 +1,66 @@
+\documentclass[annotation,times]{itmo-student-thesis}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{placeins}
+\graphicspath{{images/}}
+\usetikzlibrary{arrows}
+\usepackage{filecontents}
+
+\addbibresource{bachelor-thesis.bib}
+
+\begin{document}
+	
+	\studygroup{M3436}
+	\title{Разработка параллельного алгоритма недоминирующей \\ сортировки}
+    \author{Ким Анатолий Валерьевич}{Ким А.В.}
+    \supervisor{Буздалов Максим Викторович}{Буздалов М.В.}{канд. техн. наук}{доцент кафедры КТ}
+	\publishyear{2017}
+
+    % Здесь должны быть даты (сдача, защита)
+
+    %%% Цель исследования
+    \researchaim{Целью данной работы является получение эффективного параллельного алгоритма 
+                 недоминирующей сортировки на основе имеющихся решений.}
+
+    %%% Задачи, решаемые в ВКР
+    \researchtargets{\begin{enumerate}
+        \item анализ существующий решений;
+        \item разработка эффективного параллельного алгоритма;
+        \item экспериментальное исследование эффективности полученного решения;
+    \end{enumerate}}
+
+    %%% Использование современных пакетов компьютерных программ и технологий
+    \advancedtechnologyusage{Алгоритм был разработан на языке программирования Java.}
+
+    %%% Краткая характеристика полученных результатов 
+    \researchsummary{Был разработан алгоритм.}
+
+    %%% Гранты, полученные при выполнении работы 
+    \researchfunding{Гранты отсутствуют.}
+
+    %%% Наличие публикаций и выступлений на конференциях по теме выпускной работы
+    \researchpublications{Данная работа не имеет публикаций.}
+	
+	%% Эта команда генерирует титульный лист и аннотацию.
+    \maketitle{Бакалавр}
+
+	%% Оглавление
+	\tableofcontents
+	
+    \input{chapters/intro.tex}
+	
+	%\input{chapters/chapter-1.tex}
+	%\input{chapters/chapter-2.tex}
+	%\input{chapters/chapter-3.tex}
+	
+	%\input{chapters/conclusion.tex}
+	
+	%\printmainbibliography
+	
+	%% После этой команды chapter будет генерировать приложения, нумерованные русскими буквами.
+	%% \startappendices из старого стилевика будет делать то же самое
+	%\appendix
+	
+	%\chapter{Пример приложения}
+	
+\end{document}
