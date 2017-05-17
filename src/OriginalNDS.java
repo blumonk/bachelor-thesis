@@ -1,3 +1,4 @@
+package nds;
 /*
  * Copyright 2015 Maxim Buzdalov
  *
@@ -14,6 +15,8 @@
  * limitations under the License.
  */
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.util.*;
 
 /**

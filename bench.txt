@@ -44,7 +44,7 @@ ORIG:
     n = 10000, dim = 15, times = 50: average 4.11e+02, min 4.00e+02, max 4.37e+02, median 4.10e+02
 
 
-    PARALLEL (2 THREADS):
+PARALLEL (2 THREADS):
     n = 10000, dim =  3, times = 50: average 1.13e+02, min 1.08e+02, max 1.22e+02, median 1.13e+02
     n = 10000, dim =  4, times = 50: average 1.79e+02, min 1.65e+02, max 1.99e+02, median 1.81e+02
     n = 10000, dim =  5, times = 50: average 2.69e+02, min 2.51e+02, max 2.97e+02, median 2.68e+02
@@ -58,7 +58,37 @@ ORIG:
     n = 10000, dim = 13, times = 50: average 5.25e+02, min 4.86e+02, max 5.74e+02, median 5.24e+02
     n = 10000, dim = 14, times = 50: average 5.18e+02, min 4.89e+02, max 5.65e+02, median 5.18e+02
     n = 10000, dim = 15, times = 50: average 5.18e+02, min 4.90e+02, max 5.52e+02, median 5.12e+02
+    
+    TL Random, one condition carried out:
 
+    n = 10000, dim =  3, times = 25: average 3.41e+01, min 3.08e+01, max 4.52e+01, median 3.20e+01
+    n = 10000, dim =  4, times = 25: average 1.54e+02, min 1.50e+02, max 1.59e+02, median 1.54e+02
+    n = 10000, dim =  5, times = 25: average 2.35e+02, min 2.21e+02, max 2.55e+02, median 2.34e+02
+    n = 10000, dim =  6, times = 25: average 3.18e+02, min 3.03e+02, max 3.41e+02, median 3.15e+02
+    n = 10000, dim =  7, times = 25: average 3.87e+02, min 3.64e+02, max 4.14e+02, median 3.83e+02
+    n = 10000, dim =  8, times = 25: average 4.27e+02, min 4.09e+02, max 4.50e+02, median 4.25e+02
+    n = 10000, dim =  9, times = 25: average 4.50e+02, min 4.26e+02, max 4.92e+02, median 4.49e+02
+    n = 10000, dim = 10, times = 25: average 4.61e+02, min 4.33e+02, max 5.23e+02, median 4.61e+02
+    n = 10000, dim = 11, times = 25: average 4.60e+02, min 4.35e+02, max 4.85e+02, median 4.59e+02
+    n = 10000, dim = 12, times = 25: average 4.64e+02, min 4.39e+02, max 5.03e+02, median 4.61e+02
+    n = 10000, dim = 13, times = 25: average 4.57e+02, min 4.31e+02, max 5.02e+02, median 4.57e+02
+    n = 10000, dim = 14, times = 25: average 4.55e+02, min 4.26e+02, max 4.98e+02, median 4.53e+02
+    n = 10000, dim = 15, times = 25: average 4.51e+02, min 4.29e+02, max 4.86e+02, median 4.51e+02
+
+    TL Random, all conditions carried out:
+    n = 10000, dim =  3, times = 25: average 2.61e+01, min 2.58e+01, max 2.71e+01, median 2.60e+01
+    n = 10000, dim =  4, times = 25: average 8.78e+01, min 8.00e+01, max 9.75e+01, median 8.72e+01
+    n = 10000, dim =  5, times = 25: average 1.69e+02, min 1.62e+02, max 1.95e+02, median 1.66e+02
+    n = 10000, dim =  6, times = 25: average 2.61e+02, min 2.45e+02, max 2.80e+02, median 2.59e+02
+    n = 10000, dim =  7, times = 25: average 3.33e+02, min 3.08e+02, max 3.59e+02, median 3.35e+02
+    n = 10000, dim =  8, times = 25: average 3.80e+02, min 3.51e+02, max 4.12e+02, median 3.83e+02
+    n = 10000, dim =  9, times = 25: average 3.89e+02, min 3.63e+02, max 4.22e+02, median 3.88e+02
+    n = 10000, dim = 10, times = 25: average 3.98e+02, min 3.76e+02, max 4.30e+02, median 3.97e+02
+    n = 10000, dim = 11, times = 25: average 4.06e+02, min 3.79e+02, max 4.31e+02, median 4.02e+02
+    n = 10000, dim = 12, times = 25: average 4.08e+02, min 3.74e+02, max 4.44e+02, median 4.06e+02
+    n = 10000, dim = 13, times = 25: average 4.17e+02, min 3.78e+02, max 4.56e+02, median 4.14e+02
+    n = 10000, dim = 14, times = 25: average 4.07e+02, min 3.78e+02, max 4.35e+02, median 4.09e+02
+    n = 10000, dim = 15, times = 25: average 4.09e+02, min 3.76e+02, max 4.73e+02, median 4.08e+02
 
 PARALLEL (4 THREADS):
     n = 10000, dim =  3, times = 50: average 1.10e+02, min 1.05e+02, max 1.14e+02, median 1.10e+02
@@ -74,6 +104,21 @@ PARALLEL (4 THREADS):
     n = 10000, dim = 13, times = 50: average 4.22e+02, min 4.11e+02, max 4.36e+02, median 4.23e+02
     n = 10000, dim = 14, times = 50: average 4.23e+02, min 4.07e+02, max 4.37e+02, median 4.23e+02
     n = 10000, dim = 15, times = 50: average 4.22e+02, min 4.11e+02, max 4.35e+02, median 4.21e+02
+
+    TL Random, optimized:
+    n = 10000, dim =  3, times = 25: average 3.16e+01, min 3.09e+01, max 3.27e+01, median 3.16e+01
+    n = 10000, dim =  4, times = 25: average 1.44e+02, min 1.39e+02, max 1.63e+02, median 1.43e+02
+    n = 10000, dim =  5, times = 25: average 1.99e+02, min 1.93e+02, max 2.07e+02, median 1.98e+02
+    n = 10000, dim =  6, times = 25: average 2.62e+02, min 2.56e+02, max 2.71e+02, median 2.63e+02
+    n = 10000, dim =  7, times = 25: average 3.15e+02, min 3.07e+02, max 3.26e+02, median 3.16e+02
+    n = 10000, dim =  8, times = 25: average 3.48e+02, min 3.39e+02, max 3.61e+02, median 3.47e+02
+    n = 10000, dim =  9, times = 25: average 3.65e+02, min 3.51e+02, max 3.75e+02, median 3.65e+02
+    n = 10000, dim = 10, times = 25: average 3.68e+02, min 3.61e+02, max 3.82e+02, median 3.68e+02
+    n = 10000, dim = 11, times = 25: average 3.71e+02, min 3.62e+02, max 3.84e+02, median 3.72e+02
+    n = 10000, dim = 12, times = 25: average 3.75e+02, min 3.61e+02, max 3.94e+02, median 3.73e+02
+    n = 10000, dim = 13, times = 25: average 3.75e+02, min 3.61e+02, max 4.05e+02, median 3.74e+02
+    n = 10000, dim = 14, times = 25: average 3.72e+02, min 3.63e+02, max 3.88e+02, median 3.73e+02
+    n = 10000, dim = 15, times = 25: average 3.74e+02, min 3.60e+02, max 3.85e+02, median 3.73e+02
 
 50000 dots:
 
@@ -107,6 +152,37 @@ PARALLEL (2 THREADS):
     n = 50000, dim = 14, times = 50: average 5.48e+03, min 5.27e+03, max 5.78e+03, median 5.46e+03
     n = 50000, dim = 15, times = 50: average 5.48e+03, min 5.21e+03, max 5.86e+03, median 5.42e+03
 
+    THREADLOCAL RANDOM, SMALL OPTIMIZATION:
+    n = 50000, dim =  3, times = 25: average 2.08e+02, min 2.05e+02, max 2.14e+02, median 2.08e+02
+    n = 50000, dim =  4, times = 25: average 8.85e+02, min 8.70e+02, max 9.22e+02, median 8.86e+02
+    n = 50000, dim =  5, times = 25: average 1.63e+03, min 1.56e+03, max 1.89e+03, median 1.60e+03
+    n = 50000, dim =  6, times = 25: average 2.57e+03, min 2.48e+03, max 2.69e+03, median 2.58e+03
+    n = 50000, dim =  7, times = 25: average 3.53e+03, min 3.38e+03, max 3.77e+03, median 3.54e+03
+    n = 50000, dim =  8, times = 25: average 4.29e+03, min 4.09e+03, max 4.59e+03, median 4.27e+03
+    n = 50000, dim =  9, times = 25: average 4.74e+03, min 4.53e+03, max 5.04e+03, median 4.75e+03
+    n = 50000, dim = 10, times = 25: average 5.02e+03, min 4.73e+03, max 5.22e+03, median 5.02e+03
+    n = 50000, dim = 11, times = 25: average 5.07e+03, min 4.81e+03, max 5.37e+03, median 5.03e+03
+    n = 50000, dim = 12, times = 25: average 5.16e+03, min 4.90e+03, max 5.55e+03, median 5.15e+03
+    n = 50000, dim = 13, times = 25: average 5.10e+03, min 4.83e+03, max 5.34e+03, median 5.09e+03
+    n = 50000, dim = 14, times = 25: average 5.13e+03, min 4.87e+03, max 5.64e+03, median 5.09e+03
+    n = 50000, dim = 15, times = 25: average 5.14e+03, min 4.89e+03, max 5.40e+03, median 5.15e+03
+
+    TL RANDOM, ALL CONDITIONS CARRIED OUT:
+    n = 50000, dim =  3, times = 25: average 1.77e+02, min 1.74e+02, max 2.00e+02, median 1.75e+02
+    n = 50000, dim =  4, times = 25: average 6.56e+02, min 5.96e+02, max 7.58e+02, median 6.51e+02
+    n = 50000, dim =  5, times = 25: average 1.37e+03, min 1.31e+03, max 1.44e+03, median 1.37e+03
+    n = 50000, dim =  6, times = 25: average 2.31e+03, min 2.19e+03, max 2.40e+03, median 2.31e+03
+    n = 50000, dim =  7, times = 25: average 3.30e+03, min 3.15e+03, max 3.58e+03, median 3.29e+03
+    n = 50000, dim =  8, times = 25: average 4.05e+03, min 3.88e+03, max 4.29e+03, median 4.04e+03
+    n = 50000, dim =  9, times = 25: average 4.48e+03, min 4.28e+03, max 4.69e+03, median 4.45e+03
+    n = 50000, dim = 10, times = 25: average 4.70e+03, min 4.45e+03, max 5.09e+03, median 4.69e+03
+    n = 50000, dim = 11, times = 25: average 4.84e+03, min 4.56e+03, max 5.60e+03, median 4.82e+03
+    n = 50000, dim = 12, times = 25: average 4.84e+03, min 4.65e+03, max 5.08e+03, median 4.84e+03
+    n = 50000, dim = 13, times = 25: average 4.91e+03, min 4.69e+03, max 5.18e+03, median 4.89e+03
+    n = 50000, dim = 14, times = 25: average 4.84e+03, min 4.59e+03, max 5.03e+03, median 4.87e+03
+    n = 50000, dim = 15, times = 25: average 4.80e+03, min 4.57e+03, max 5.10e+03, median 4.83e+03
+
+
 PARALLEL (4 THREADS):
     n = 50000, dim =  3, times = 50: average 5.60e+02, min 5.47e+02, max 5.72e+02, median 5.59e+02
     n = 50000, dim =  4, times = 50: average 8.12e+02, min 7.78e+02, max 8.45e+02, median 8.11e+02
@@ -122,7 +198,50 @@ PARALLEL (4 THREADS):
     n = 50000, dim = 14, times = 50: average 4.20e+03, min 4.13e+03, max 4.31e+03, median 4.20e+03
     n = 50000, dim = 15, times = 50: average 4.22e+03, min 4.14e+03, max 4.30e+03, median 4.22e+03
 
+    THREADLOCAL RANDOM, SMALL OPTIMIZATION:
+    n = 50000, dim =  3, times = 25: average 2.11e+02, min 2.06e+02, max 2.25e+02, median 2.10e+02
+    n = 50000, dim =  4, times = 25: average 7.84e+02, min 7.62e+02, max 8.35e+02, median 7.79e+02
+    n = 50000, dim =  5, times = 25: average 1.26e+03, min 1.23e+03, max 1.29e+03, median 1.26e+03
+    n = 50000, dim =  6, times = 25: average 1.93e+03, min 1.91e+03, max 1.98e+03, median 1.93e+03
+    n = 50000, dim =  7, times = 25: average 2.60e+03, min 2.55e+03, max 2.64e+03, median 2.60e+03
+    n = 50000, dim =  8, times = 25: average 3.17e+03, min 3.10e+03, max 3.22e+03, median 3.17e+03
+    n = 50000, dim =  9, times = 25: average 3.54e+03, min 3.48e+03, max 3.63e+03, median 3.54e+03
+    n = 50000, dim = 10, times = 25: average 3.73e+03, min 3.68e+03, max 3.80e+03, median 3.73e+03
+    n = 50000, dim = 11, times = 25: average 3.81e+03, min 3.76e+03, max 3.88e+03, median 3.80e+03
+    n = 50000, dim = 12, times = 25: average 3.87e+03, min 3.78e+03, max 3.93e+03, median 3.87e+03
+    n = 50000, dim = 13, times = 25: average 3.87e+03, min 3.80e+03, max 3.95e+03, median 3.87e+03
+    n = 50000, dim = 14, times = 25: average 3.91e+03, min 3.83e+03, max 4.02e+03, median 3.90e+03
+    n = 50000, dim = 15, times = 25: average 3.92e+03, min 3.86e+03, max 4.09e+03, median 3.91e+03
 
+    TLRANDOM, ALL CONDITIONS CARRIED OUT:
+    n = 50000, dim =  3, times = 25: average 1.76e+02, min 1.75e+02, max 1.82e+02, median 1.76e+02
+    n = 50000, dim =  4, times = 25: average 4.92e+02, min 4.76e+02, max 5.08e+02, median 4.90e+02
+    n = 50000, dim =  5, times = 25: average 9.95e+02, min 9.78e+02, max 1.02e+03, median 9.91e+02
+    n = 50000, dim =  6, times = 25: average 1.68e+03, min 1.65e+03, max 1.71e+03, median 1.68e+03
+    n = 50000, dim =  7, times = 25: average 2.39e+03, min 2.36e+03, max 2.43e+03, median 2.39e+03
+    n = 50000, dim =  8, times = 25: average 2.98e+03, min 2.95e+03, max 3.05e+03, median 2.98e+03
+    n = 50000, dim =  9, times = 25: average 3.36e+03, min 3.31e+03, max 3.44e+03, median 3.35e+03
+    n = 50000, dim = 10, times = 25: average 3.47e+03, min 3.42e+03, max 3.55e+03, median 3.48e+03
+    n = 50000, dim = 11, times = 25: average 3.59e+03, min 3.51e+03, max 3.71e+03, median 3.59e+03
+    n = 50000, dim = 12, times = 25: average 3.61e+03, min 3.55e+03, max 3.66e+03, median 3.60e+03
+    n = 50000, dim = 13, times = 25: average 3.60e+03, min 3.52e+03, max 3.73e+03, median 3.60e+03
+    n = 50000, dim = 14, times = 25: average 3.59e+03, min 3.49e+03, max 3.66e+03, median 3.58e+03
+    n = 50000, dim = 15, times = 25: average 3.64e+03, min 3.56e+03, max 3.75e+03, median 3.63e+03
+
+    MODIFIED ND-A:
+    n = 50000, dim =  3, times = 25: average 4.09e+02, min 4.06e+02, max 4.11e+02, median 4.08e+02
+    n = 50000, dim =  4, times = 25: average 6.89e+02, min 6.77e+02, max 7.06e+02, median 6.87e+02
+    n = 50000, dim =  5, times = 25: average 1.18e+03, min 1.16e+03, max 1.27e+03, median 1.17e+03
+    n = 50000, dim =  6, times = 25: average 1.85e+03, min 1.83e+03, max 1.88e+03, median 1.85e+03
+    n = 50000, dim =  7, times = 25: average 2.54e+03, min 2.48e+03, max 2.58e+03, median 2.53e+03
+    n = 50000, dim =  8, times = 25: average 3.09e+03, min 3.03e+03, max 3.17e+03, median 3.09e+03
+    n = 50000, dim =  9, times = 25: average 3.47e+03, min 3.42e+03, max 3.54e+03, median 3.47e+03
+    n = 50000, dim = 10, times = 25: average 3.70e+03, min 3.61e+03, max 3.81e+03, median 3.69e+03
+    n = 50000, dim = 11, times = 25: average 3.74e+03, min 3.69e+03, max 3.79e+03, median 3.74e+03
+    n = 50000, dim = 12, times = 25: average 3.78e+03, min 3.69e+03, max 3.83e+03, median 3.79e+03
+    n = 50000, dim = 13, times = 25: average 3.78e+03, min 3.72e+03, max 3.86e+03, median 3.78e+03
+    n = 50000, dim = 14, times = 25: average 3.79e+03, min 3.72e+03, max 3.89e+03, median 3.79e+03
+    n = 50000, dim = 15, times = 25: average 3.79e+03, min 3.71e+03, max 3.87e+03, median 3.79e+03
 
 100000 dots:
 
@@ -171,6 +290,20 @@ PARALLEL (2 THREADS):
     n = 100000, dim = 14, times = 10: average 1.48e+04, min 1.42e+04, max 1.54e+04, median 1.49e+04
     n = 100000, dim = 15, times = 10: average 1.48e+04, min 1.44e+04, max 1.52e+04, median 1.48e+04
 
+    TL RANDOM + conditions carried out:
+    n = 100000, dim =  3, times = 25: average 4.20e+02, min 4.17e+02, max 4.23e+02, median 4.19e+02
+    n = 100000, dim =  4, times = 25: average 1.48e+03, min 1.43e+03, max 1.56e+03, median 1.48e+03
+    n = 100000, dim =  5, times = 25: average 3.26e+03, min 3.19e+03, max 3.39e+03, median 3.25e+03
+    n = 100000, dim =  6, times = 25: average 5.71e+03, min 5.46e+03, max 5.95e+03, median 5.68e+03
+    n = 100000, dim =  7, times = 25: average 8.56e+03, min 8.24e+03, max 8.78e+03, median 8.56e+03
+    n = 100000, dim =  8, times = 25: average 1.10e+04, min 1.06e+04, max 1.15e+04, median 1.10e+04
+    n = 100000, dim =  9, times = 25: average 1.26e+04, min 1.20e+04, max 1.36e+04, median 1.26e+04
+    n = 100000, dim = 10, times = 25: average 1.36e+04, min 1.30e+04, max 1.42e+04, median 1.36e+04
+    n = 100000, dim = 11, times = 25: average 1.41e+04, min 1.30e+04, max 1.49e+04, median 1.41e+04
+    n = 100000, dim = 12, times = 25: average 1.42e+04, min 1.36e+04, max 1.47e+04, median 1.42e+04
+    n = 100000, dim = 13, times = 25: average 1.43e+04, min 1.36e+04, max 1.51e+04, median 1.43e+04
+    n = 100000, dim = 14, times = 25: average 1.43e+04, min 1.38e+04, max 1.48e+04, median 1.43e+04
+    n = 100000, dim = 15, times = 25: average 1.43e+04, min 1.34e+04, max 1.48e+04, median 1.42e+04
 
 PARALLEL (4 THREADS):
     n = 100000, dim =  3, times = 50: average 1.18e+03, min 1.16e+03, max 1.22e+03, median 1.18e+03
@@ -202,7 +335,7 @@ PARALLEL (4 THREADS):
     n = 100000, dim = 14, times = 10: average 1.12e+04, min 1.11e+04, max 1.14e+04, median 1.12e+04
     n = 100000, dim = 15, times = 10: average 1.10e+04, min 1.09e+04, max 1.11e+04, median 1.10e+04
 
-    THRESHOLD=1024:
+    THRESHOLD=1024 (bad idea):
     n = 100000, dim =  3, times = 10: average 1.14e+03, min 1.11e+03, max 1.30e+03, median 1.12e+03
     n = 100000, dim =  4, times = 10: average 1.95e+03, min 1.91e+03, max 2.04e+03, median 1.94e+03
     n = 100000, dim =  5, times = 10: average 3.47e+03, min 3.41e+03, max 3.58e+03, median 3.45e+03
@@ -217,3 +350,46 @@ PARALLEL (4 THREADS):
     n = 100000, dim = 14, times = 10: average 1.23e+04, min 1.21e+04, max 1.26e+04, median 1.22e+04
     n = 100000, dim = 15, times = 10: average 1.21e+04, min 1.20e+04, max 1.25e+04, median 1.21e+04
 
+    TLRANDOM + ALL CONDITIONS CARRIED OUT:
+    n = 100000, dim =  3, times = 25: average 4.12e+02, min 4.11e+02, max 4.18e+02, median 4.12e+02
+    n = 100000, dim =  4, times = 25: average 1.13e+03, min 1.11e+03, max 1.21e+03, median 1.12e+03
+    n = 100000, dim =  5, times = 25: average 2.34e+03, min 2.31e+03, max 2.39e+03, median 2.34e+03
+    n = 100000, dim =  6, times = 25: average 4.11e+03, min 4.08e+03, max 4.17e+03, median 4.10e+03
+    n = 100000, dim =  7, times = 25: average 6.12e+03, min 6.07e+03, max 6.16e+03, median 6.12e+03
+    n = 100000, dim =  8, times = 25: average 7.87e+03, min 7.77e+03, max 8.02e+03, median 7.86e+03
+    n = 100000, dim =  9, times = 25: average 9.30e+03, min 9.03e+03, max 9.52e+03, median 9.30e+03
+    n = 100000, dim = 10, times = 25: average 9.88e+03, min 9.71e+03, max 1.00e+04, median 9.89e+03
+    n = 100000, dim = 11, times = 25: average 1.03e+04, min 1.01e+04, max 1.15e+04, median 1.03e+04
+    n = 100000, dim = 12, times = 25: average 1.04e+04, min 1.02e+04, max 1.06e+04, median 1.04e+04
+    n = 100000, dim = 13, times = 25: average 1.04e+04, min 1.03e+04, max 1.05e+04, median 1.04e+04
+    n = 100000, dim = 14, times = 25: average 1.05e+04, min 1.03e+04, max 1.10e+04, median 1.04e+04
+    n = 100000, dim = 15, times = 25: average 1.04e+04, min 1.03e+04, max 1.06e+04, median 1.04e+04
+
+    SMALL || of nd-a:
+    n = 100000, dim =  3, times = 25: average 4.54e+02, min 4.49e+02, max 4.77e+02, median 4.53e+02
+    n = 100000, dim =  4, times = 25: average 1.13e+03, min 1.11e+03, max 1.17e+03, median 1.12e+03
+    n = 100000, dim =  5, times = 25: average 2.37e+03, min 2.30e+03, max 2.57e+03, median 2.33e+03
+    n = 100000, dim =  6, times = 25: average 4.13e+03, min 4.08e+03, max 4.20e+03, median 4.12e+03
+    n = 100000, dim =  7, times = 25: average 6.17e+03, min 6.09e+03, max 6.29e+03, median 6.17e+03
+    n = 100000, dim =  8, times = 25: average 8.04e+03, min 7.94e+03, max 8.16e+03, median 8.02e+03
+    n = 100000, dim =  9, times = 25: average 9.26e+03, min 9.13e+03, max 9.33e+03, median 9.27e+03
+    n = 100000, dim = 10, times = 25: average 1.00e+04, min 9.88e+03, max 1.02e+04, median 1.00e+04
+    n = 100000, dim = 11, times = 25: average 1.03e+04, min 1.02e+04, max 1.05e+04, median 1.03e+04
+    n = 100000, dim = 12, times = 25: average 1.06e+04, min 1.05e+04, max 1.08e+04, median 1.06e+04
+    n = 100000, dim = 13, times = 25: average 1.06e+04, min 1.04e+04, max 1.08e+04, median 1.06e+04
+    n = 100000, dim = 14, times = 25: average 1.06e+04, min 1.05e+04, max 1.08e+04, median 1.06e+04
+    n = 100000, dim = 15, times = 25: average 1.05e+04, min 1.03e+04, max 1.06e+04, median 1.05e+04
+    TRY #2:
+    n = 100000, dim =  3, times = 25: average 4.20e+02, min 4.16e+02, max 4.25e+02, median 4.19e+02, 
+    n = 100000, dim =  4, times = 25: average 1.10e+03, min 1.07e+03, max 1.16e+03, median 1.09e+03,
+    n = 100000, dim =  5, times = 25: average 2.31e+03, min 2.25e+03, max 2.47e+03, median 2.31e+03,
+    n = 100000, dim =  6, times = 25: average 4.12e+03, min 4.07e+03, max 4.19e+03, median 4.11e+03,
+    n = 100000, dim =  7, times = 25: average 6.12e+03, min 6.04e+03, max 6.24e+03, median 6.11e+03,
+    n = 100000, dim =  8, times = 25: average 7.94e+03, min 7.81e+03, max 8.08e+03, median 7.93e+03,
+    n = 100000, dim =  9, times = 25: average 9.15e+03, min 9.03e+03, max 9.25e+03, median 9.15e+03,
+    n = 100000, dim = 10, times = 25: average 9.92e+03, min 9.77e+03, max 1.02e+04, median 9.92e+03,
+    n = 100000, dim = 11, times = 25: average 1.03e+04, min 1.01e+04, max 1.04e+04, median 1.03e+04,
+    n = 100000, dim = 12, times = 25: average 1.04e+04, min 1.03e+04, max 1.05e+04, median 1.04e+04,
+    n = 100000, dim = 13, times = 25: average 1.05e+04, min 1.03e+04, max 1.07e+04, median 1.05e+04,
+    n = 100000, dim = 14, times = 25: average 1.05e+04, min 1.02e+04, max 1.09e+04, median 1.04e+04,
+    n = 100000, dim = 15, times = 25: average 1.05e+04, min 1.03e+04, max 1.06e+04, median 1.05e+04,
