@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <style>
+        #container {
+            min-width: 310px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+<div id="container">
+    <div id="10k"></div>
+</div>
+<script>
+Highcharts.chart('10k', {
+    chart: {type: 'line'},
+    title: {text: ''},
+    xAxis: {title: {text: 'Размерность'},
+        categories: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    },
+    yAxis: {title: {text: 'Время работы'}},
+    series: [
+{
+    name: '(4, 30000, 16)',
+    data: [9.47e+01, 2.73e+02, 5.36e+02, 8.50e+02, 1.14e+03, 1.36e+03, 1.51e+03, 1.57e+03, 1.63e+03, 1.65e+03, 1.64e+03, 1.63e+03, 1.65e+03]
+},
+{
+    name: '(4, 30000, 32)',
+    data: [9.65e+01, 2.56e+02, 5.05e+02, 8.08e+02, 1.12e+03, 1.34e+03, 1.50e+03, 1.58e+03, 1.60e+03, 1.61e+03, 1.62e+03, 1.63e+03, 1.64e+03]
+},
+{
+    name: '(4, 30000, 64)',
+    data: [9.86e+01, 2.53e+02, 5.14e+02, 8.20e+02, 1.13e+03, 1.43e+03, 1.52e+03, 1.56e+03, 1.60e+03, 1.63e+03, 1.66e+03, 1.63e+03, 1.63e+03]
+},
+{
+    name: '(4, 30000, 128)',
+    data: [9.54e+01, 2.60e+02, 5.30e+02, 8.49e+02, 1.16e+03, 1.39e+03, 1.53e+03, 1.61e+03, 1.63e+03, 1.65e+03, 1.66e+03, 1.65e+03, 1.67e+03]
+},
+
+    ]
+});
+</script>
+
