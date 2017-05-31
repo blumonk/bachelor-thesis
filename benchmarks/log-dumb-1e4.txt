@@ -1,0 +1,2509 @@
+DIMENSION: 3
+1 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 1968 ms
+    maximum run was in 2136 ms
+    minimum run was in 1960 ms
+    blackhole checksum = 1175.
+2 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 1263 ms
+    maximum run was in 1293 ms
+    minimum run was in 1222 ms
+    blackhole checksum = 1175.
+3 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 1146 ms
+    maximum run was in 1188 ms
+    minimum run was in 1081 ms
+    blackhole checksum = 1175.
+4 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 956 ms
+    maximum run was in 1031 ms
+    minimum run was in 927 ms
+    blackhole checksum = 1175.
+5 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 857 ms
+    maximum run was in 868 ms
+    minimum run was in 822 ms
+    blackhole checksum = 1175.
+6 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 763 ms
+    maximum run was in 790 ms
+    minimum run was in 749 ms
+    blackhole checksum = 1175.
+7 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 695 ms
+    maximum run was in 708 ms
+    minimum run was in 678 ms
+    blackhole checksum = 1175.
+8 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 657 ms
+    maximum run was in 668 ms
+    minimum run was in 644 ms
+    blackhole checksum = 1175.
+9 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 591 ms
+    maximum run was in 607 ms
+    minimum run was in 576 ms
+    blackhole checksum = 1175.
+10 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 586 ms
+    maximum run was in 621 ms
+    minimum run was in 563 ms
+    blackhole checksum = 1175.
+11 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 567 ms
+    maximum run was in 603 ms
+    minimum run was in 530 ms
+    blackhole checksum = 1175.
+12 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 524 ms
+    maximum run was in 546 ms
+    minimum run was in 503 ms
+    blackhole checksum = 1175.
+13 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 510 ms
+    maximum run was in 550 ms
+    minimum run was in 490 ms
+    blackhole checksum = 1175.
+14 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 498 ms
+    maximum run was in 518 ms
+    minimum run was in 474 ms
+    blackhole checksum = 1175.
+15 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 476 ms
+    maximum run was in 495 ms
+    minimum run was in 458 ms
+    blackhole checksum = 1175.
+16 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 469 ms
+    maximum run was in 482 ms
+    minimum run was in 449 ms
+    blackhole checksum = 1175.
+17 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 463 ms
+    maximum run was in 483 ms
+    minimum run was in 440 ms
+    blackhole checksum = 1175.
+18 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 452 ms
+    maximum run was in 477 ms
+    minimum run was in 441 ms
+    blackhole checksum = 1175.
+19 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 452 ms
+    maximum run was in 463 ms
+    minimum run was in 426 ms
+    blackhole checksum = 1175.
+20 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 429 ms
+    maximum run was in 452 ms
+    minimum run was in 415 ms
+    blackhole checksum = 1175.
+21 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 432 ms
+    maximum run was in 465 ms
+    minimum run was in 412 ms
+    blackhole checksum = 1175.
+22 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 421 ms
+    maximum run was in 438 ms
+    minimum run was in 405 ms
+    blackhole checksum = 1175.
+23 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 418 ms
+    maximum run was in 432 ms
+    minimum run was in 401 ms
+    blackhole checksum = 1175.
+24 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 411 ms
+    maximum run was in 433 ms
+    minimum run was in 397 ms
+    blackhole checksum = 1175.
+25 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 408 ms
+    maximum run was in 437 ms
+    minimum run was in 389 ms
+    blackhole checksum = 1175.
+26 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 405 ms
+    maximum run was in 428 ms
+    minimum run was in 389 ms
+    blackhole checksum = 1175.
+27 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 399 ms
+    maximum run was in 423 ms
+    minimum run was in 385 ms
+    blackhole checksum = 1175.
+28 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 404 ms
+    maximum run was in 425 ms
+    minimum run was in 374 ms
+    blackhole checksum = 1175.
+29 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 398 ms
+    maximum run was in 420 ms
+    minimum run was in 380 ms
+    blackhole checksum = 1175.
+30 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 400 ms
+    maximum run was in 438 ms
+    minimum run was in 384 ms
+    blackhole checksum = 1175.
+31 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 393 ms
+    maximum run was in 442 ms
+    minimum run was in 369 ms
+    blackhole checksum = 1175.
+32 THREADS:
+    Warming up... done, blackhole checksum = 470.
+    median  run was in 429 ms
+    maximum run was in 486 ms
+    minimum run was in 401 ms
+    blackhole checksum = 1175.
+DIMENSION: 4
+1 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 2572 ms
+    maximum run was in 2643 ms
+    minimum run was in 2565 ms
+    blackhole checksum = 475.
+2 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 1673 ms
+    maximum run was in 1693 ms
+    minimum run was in 1518 ms
+    blackhole checksum = 475.
+3 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 1083 ms
+    maximum run was in 1092 ms
+    minimum run was in 1021 ms
+    blackhole checksum = 475.
+4 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 834 ms
+    maximum run was in 1018 ms
+    minimum run was in 812 ms
+    blackhole checksum = 475.
+5 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 780 ms
+    maximum run was in 785 ms
+    minimum run was in 748 ms
+    blackhole checksum = 475.
+6 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 680 ms
+    maximum run was in 746 ms
+    minimum run was in 677 ms
+    blackhole checksum = 475.
+7 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 590 ms
+    maximum run was in 647 ms
+    minimum run was in 565 ms
+    blackhole checksum = 475.
+8 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 537 ms
+    maximum run was in 661 ms
+    minimum run was in 526 ms
+    blackhole checksum = 475.
+9 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 499 ms
+    maximum run was in 513 ms
+    minimum run was in 483 ms
+    blackhole checksum = 475.
+10 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 475 ms
+    maximum run was in 543 ms
+    minimum run was in 451 ms
+    blackhole checksum = 475.
+11 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 473 ms
+    maximum run was in 518 ms
+    minimum run was in 447 ms
+    blackhole checksum = 475.
+12 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 429 ms
+    maximum run was in 467 ms
+    minimum run was in 414 ms
+    blackhole checksum = 475.
+13 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 391 ms
+    maximum run was in 422 ms
+    minimum run was in 378 ms
+    blackhole checksum = 475.
+14 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 386 ms
+    maximum run was in 434 ms
+    minimum run was in 377 ms
+    blackhole checksum = 475.
+15 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 380 ms
+    maximum run was in 408 ms
+    minimum run was in 365 ms
+    blackhole checksum = 475.
+16 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 370 ms
+    maximum run was in 406 ms
+    minimum run was in 351 ms
+    blackhole checksum = 475.
+17 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 361 ms
+    maximum run was in 397 ms
+    minimum run was in 348 ms
+    blackhole checksum = 475.
+18 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 355 ms
+    maximum run was in 387 ms
+    minimum run was in 339 ms
+    blackhole checksum = 475.
+19 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 349 ms
+    maximum run was in 365 ms
+    minimum run was in 334 ms
+    blackhole checksum = 475.
+20 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 339 ms
+    maximum run was in 355 ms
+    minimum run was in 331 ms
+    blackhole checksum = 475.
+21 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 337 ms
+    maximum run was in 353 ms
+    minimum run was in 324 ms
+    blackhole checksum = 475.
+22 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 329 ms
+    maximum run was in 360 ms
+    minimum run was in 317 ms
+    blackhole checksum = 475.
+23 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 326 ms
+    maximum run was in 345 ms
+    minimum run was in 316 ms
+    blackhole checksum = 475.
+24 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 322 ms
+    maximum run was in 346 ms
+    minimum run was in 310 ms
+    blackhole checksum = 475.
+25 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 316 ms
+    maximum run was in 340 ms
+    minimum run was in 305 ms
+    blackhole checksum = 475.
+26 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 316 ms
+    maximum run was in 346 ms
+    minimum run was in 303 ms
+    blackhole checksum = 475.
+27 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 315 ms
+    maximum run was in 326 ms
+    minimum run was in 296 ms
+    blackhole checksum = 475.
+28 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 313 ms
+    maximum run was in 326 ms
+    minimum run was in 293 ms
+    blackhole checksum = 475.
+29 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 311 ms
+    maximum run was in 364 ms
+    minimum run was in 294 ms
+    blackhole checksum = 475.
+30 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 309 ms
+    maximum run was in 372 ms
+    minimum run was in 296 ms
+    blackhole checksum = 475.
+31 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 308 ms
+    maximum run was in 363 ms
+    minimum run was in 290 ms
+    blackhole checksum = 475.
+32 THREADS:
+    Warming up... done, blackhole checksum = 190.
+    median  run was in 347 ms
+    maximum run was in 400 ms
+    minimum run was in 302 ms
+    blackhole checksum = 475.
+DIMENSION: 5
+1 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 2210 ms
+    maximum run was in 2219 ms
+    minimum run was in 2203 ms
+    blackhole checksum = 275.
+2 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 1353 ms
+    maximum run was in 1360 ms
+    minimum run was in 1347 ms
+    blackhole checksum = 275.
+3 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 932 ms
+    maximum run was in 950 ms
+    minimum run was in 908 ms
+    blackhole checksum = 275.
+4 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 704 ms
+    maximum run was in 715 ms
+    minimum run was in 701 ms
+    blackhole checksum = 275.
+5 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 641 ms
+    maximum run was in 647 ms
+    minimum run was in 581 ms
+    blackhole checksum = 275.
+6 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 496 ms
+    maximum run was in 513 ms
+    minimum run was in 494 ms
+    blackhole checksum = 275.
+7 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 439 ms
+    maximum run was in 444 ms
+    minimum run was in 427 ms
+    blackhole checksum = 275.
+8 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 421 ms
+    maximum run was in 475 ms
+    minimum run was in 392 ms
+    blackhole checksum = 275.
+9 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 380 ms
+    maximum run was in 391 ms
+    minimum run was in 373 ms
+    blackhole checksum = 275.
+10 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 376 ms
+    maximum run was in 398 ms
+    minimum run was in 343 ms
+    blackhole checksum = 275.
+11 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 316 ms
+    maximum run was in 324 ms
+    minimum run was in 309 ms
+    blackhole checksum = 275.
+12 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 329 ms
+    maximum run was in 349 ms
+    minimum run was in 306 ms
+    blackhole checksum = 275.
+13 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 306 ms
+    maximum run was in 312 ms
+    minimum run was in 292 ms
+    blackhole checksum = 275.
+14 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 300 ms
+    maximum run was in 317 ms
+    minimum run was in 279 ms
+    blackhole checksum = 275.
+15 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 290 ms
+    maximum run was in 308 ms
+    minimum run was in 276 ms
+    blackhole checksum = 275.
+16 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 288 ms
+    maximum run was in 322 ms
+    minimum run was in 269 ms
+    blackhole checksum = 275.
+17 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 277 ms
+    maximum run was in 290 ms
+    minimum run was in 254 ms
+    blackhole checksum = 275.
+18 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 270 ms
+    maximum run was in 286 ms
+    minimum run was in 248 ms
+    blackhole checksum = 275.
+19 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 266 ms
+    maximum run was in 280 ms
+    minimum run was in 248 ms
+    blackhole checksum = 275.
+20 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 265 ms
+    maximum run was in 283 ms
+    minimum run was in 256 ms
+    blackhole checksum = 275.
+21 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 263 ms
+    maximum run was in 278 ms
+    minimum run was in 246 ms
+    blackhole checksum = 275.
+22 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 257 ms
+    maximum run was in 292 ms
+    minimum run was in 244 ms
+    blackhole checksum = 275.
+23 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 258 ms
+    maximum run was in 277 ms
+    minimum run was in 243 ms
+    blackhole checksum = 275.
+24 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 257 ms
+    maximum run was in 289 ms
+    minimum run was in 238 ms
+    blackhole checksum = 275.
+25 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 258 ms
+    maximum run was in 277 ms
+    minimum run was in 241 ms
+    blackhole checksum = 275.
+26 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 255 ms
+    maximum run was in 288 ms
+    minimum run was in 240 ms
+    blackhole checksum = 275.
+27 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 257 ms
+    maximum run was in 277 ms
+    minimum run was in 239 ms
+    blackhole checksum = 275.
+28 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 256 ms
+    maximum run was in 288 ms
+    minimum run was in 230 ms
+    blackhole checksum = 275.
+29 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 263 ms
+    maximum run was in 321 ms
+    minimum run was in 242 ms
+    blackhole checksum = 275.
+30 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 256 ms
+    maximum run was in 278 ms
+    minimum run was in 232 ms
+    blackhole checksum = 275.
+31 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 258 ms
+    maximum run was in 318 ms
+    minimum run was in 225 ms
+    blackhole checksum = 275.
+32 THREADS:
+    Warming up... done, blackhole checksum = 110.
+    median  run was in 280 ms
+    maximum run was in 381 ms
+    minimum run was in 256 ms
+    blackhole checksum = 275.
+DIMENSION: 6
+1 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 2702 ms
+    maximum run was in 2796 ms
+    minimum run was in 2600 ms
+    blackhole checksum = 225.
+2 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 1553 ms
+    maximum run was in 1556 ms
+    minimum run was in 1490 ms
+    blackhole checksum = 225.
+3 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 1073 ms
+    maximum run was in 1092 ms
+    minimum run was in 1070 ms
+    blackhole checksum = 225.
+4 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 837 ms
+    maximum run was in 964 ms
+    minimum run was in 820 ms
+    blackhole checksum = 225.
+5 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 653 ms
+    maximum run was in 655 ms
+    minimum run was in 651 ms
+    blackhole checksum = 225.
+6 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 606 ms
+    maximum run was in 625 ms
+    minimum run was in 549 ms
+    blackhole checksum = 225.
+7 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 482 ms
+    maximum run was in 483 ms
+    minimum run was in 481 ms
+    blackhole checksum = 225.
+8 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 428 ms
+    maximum run was in 509 ms
+    minimum run was in 419 ms
+    blackhole checksum = 225.
+9 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 382 ms
+    maximum run was in 481 ms
+    minimum run was in 377 ms
+    blackhole checksum = 225.
+10 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 379 ms
+    maximum run was in 382 ms
+    minimum run was in 353 ms
+    blackhole checksum = 225.
+11 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 345 ms
+    maximum run was in 402 ms
+    minimum run was in 335 ms
+    blackhole checksum = 225.
+12 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 329 ms
+    maximum run was in 369 ms
+    minimum run was in 311 ms
+    blackhole checksum = 225.
+13 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 330 ms
+    maximum run was in 355 ms
+    minimum run was in 314 ms
+    blackhole checksum = 225.
+14 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 329 ms
+    maximum run was in 353 ms
+    minimum run was in 310 ms
+    blackhole checksum = 225.
+15 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 311 ms
+    maximum run was in 336 ms
+    minimum run was in 288 ms
+    blackhole checksum = 225.
+16 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 311 ms
+    maximum run was in 335 ms
+    minimum run was in 290 ms
+    blackhole checksum = 225.
+17 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 294 ms
+    maximum run was in 308 ms
+    minimum run was in 278 ms
+    blackhole checksum = 225.
+18 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 297 ms
+    maximum run was in 318 ms
+    minimum run was in 279 ms
+    blackhole checksum = 225.
+19 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 284 ms
+    maximum run was in 315 ms
+    minimum run was in 260 ms
+    blackhole checksum = 225.
+20 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 292 ms
+    maximum run was in 307 ms
+    minimum run was in 272 ms
+    blackhole checksum = 225.
+21 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 281 ms
+    maximum run was in 308 ms
+    minimum run was in 270 ms
+    blackhole checksum = 225.
+22 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 276 ms
+    maximum run was in 300 ms
+    minimum run was in 256 ms
+    blackhole checksum = 225.
+23 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 274 ms
+    maximum run was in 306 ms
+    minimum run was in 263 ms
+    blackhole checksum = 225.
+24 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 272 ms
+    maximum run was in 302 ms
+    minimum run was in 258 ms
+    blackhole checksum = 225.
+25 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 271 ms
+    maximum run was in 293 ms
+    minimum run was in 253 ms
+    blackhole checksum = 225.
+26 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 277 ms
+    maximum run was in 305 ms
+    minimum run was in 260 ms
+    blackhole checksum = 225.
+27 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 274 ms
+    maximum run was in 298 ms
+    minimum run was in 253 ms
+    blackhole checksum = 225.
+28 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 271 ms
+    maximum run was in 298 ms
+    minimum run was in 253 ms
+    blackhole checksum = 225.
+29 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 276 ms
+    maximum run was in 306 ms
+    minimum run was in 261 ms
+    blackhole checksum = 225.
+30 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 279 ms
+    maximum run was in 331 ms
+    minimum run was in 262 ms
+    blackhole checksum = 225.
+31 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 274 ms
+    maximum run was in 342 ms
+    minimum run was in 249 ms
+    blackhole checksum = 225.
+32 THREADS:
+    Warming up... done, blackhole checksum = 90.
+    median  run was in 307 ms
+    maximum run was in 342 ms
+    minimum run was in 272 ms
+    blackhole checksum = 225.
+DIMENSION: 7
+1 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 3093 ms
+    maximum run was in 3295 ms
+    minimum run was in 2941 ms
+    blackhole checksum = 150.
+2 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 1619 ms
+    maximum run was in 1771 ms
+    minimum run was in 1567 ms
+    blackhole checksum = 150.
+3 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 1157 ms
+    maximum run was in 1232 ms
+    minimum run was in 1089 ms
+    blackhole checksum = 150.
+4 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 951 ms
+    maximum run was in 962 ms
+    minimum run was in 881 ms
+    blackhole checksum = 150.
+5 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 719 ms
+    maximum run was in 765 ms
+    minimum run was in 716 ms
+    blackhole checksum = 150.
+6 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 688 ms
+    maximum run was in 728 ms
+    minimum run was in 625 ms
+    blackhole checksum = 150.
+7 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 552 ms
+    maximum run was in 556 ms
+    minimum run was in 548 ms
+    blackhole checksum = 150.
+8 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 475 ms
+    maximum run was in 617 ms
+    minimum run was in 471 ms
+    blackhole checksum = 150.
+9 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 472 ms
+    maximum run was in 557 ms
+    minimum run was in 436 ms
+    blackhole checksum = 150.
+10 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 409 ms
+    maximum run was in 418 ms
+    minimum run was in 382 ms
+    blackhole checksum = 150.
+11 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 376 ms
+    maximum run was in 465 ms
+    minimum run was in 370 ms
+    blackhole checksum = 150.
+12 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 353 ms
+    maximum run was in 431 ms
+    minimum run was in 340 ms
+    blackhole checksum = 150.
+13 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 353 ms
+    maximum run was in 388 ms
+    minimum run was in 325 ms
+    blackhole checksum = 150.
+14 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 348 ms
+    maximum run was in 375 ms
+    minimum run was in 310 ms
+    blackhole checksum = 150.
+15 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 328 ms
+    maximum run was in 380 ms
+    minimum run was in 303 ms
+    blackhole checksum = 150.
+16 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 323 ms
+    maximum run was in 359 ms
+    minimum run was in 308 ms
+    blackhole checksum = 150.
+17 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 307 ms
+    maximum run was in 373 ms
+    minimum run was in 292 ms
+    blackhole checksum = 150.
+18 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 309 ms
+    maximum run was in 335 ms
+    minimum run was in 281 ms
+    blackhole checksum = 150.
+19 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 300 ms
+    maximum run was in 323 ms
+    minimum run was in 285 ms
+    blackhole checksum = 150.
+20 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 300 ms
+    maximum run was in 323 ms
+    minimum run was in 282 ms
+    blackhole checksum = 150.
+21 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 299 ms
+    maximum run was in 329 ms
+    minimum run was in 281 ms
+    blackhole checksum = 150.
+22 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 288 ms
+    maximum run was in 309 ms
+    minimum run was in 275 ms
+    blackhole checksum = 150.
+23 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 282 ms
+    maximum run was in 305 ms
+    minimum run was in 266 ms
+    blackhole checksum = 150.
+24 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 284 ms
+    maximum run was in 298 ms
+    minimum run was in 267 ms
+    blackhole checksum = 150.
+25 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 286 ms
+    maximum run was in 315 ms
+    minimum run was in 269 ms
+    blackhole checksum = 150.
+26 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 281 ms
+    maximum run was in 311 ms
+    minimum run was in 263 ms
+    blackhole checksum = 150.
+27 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 277 ms
+    maximum run was in 313 ms
+    minimum run was in 262 ms
+    blackhole checksum = 150.
+28 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 279 ms
+    maximum run was in 295 ms
+    minimum run was in 265 ms
+    blackhole checksum = 150.
+29 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 280 ms
+    maximum run was in 310 ms
+    minimum run was in 262 ms
+    blackhole checksum = 150.
+30 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 281 ms
+    maximum run was in 304 ms
+    minimum run was in 266 ms
+    blackhole checksum = 150.
+31 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 273 ms
+    maximum run was in 323 ms
+    minimum run was in 253 ms
+    blackhole checksum = 150.
+32 THREADS:
+    Warming up... done, blackhole checksum = 60.
+    median  run was in 307 ms
+    maximum run was in 384 ms
+    minimum run was in 271 ms
+    blackhole checksum = 150.
+DIMENSION: 8
+1 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 3439 ms
+    maximum run was in 3638 ms
+    minimum run was in 3422 ms
+    blackhole checksum = 125.
+2 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 1861 ms
+    maximum run was in 1943 ms
+    minimum run was in 1854 ms
+    blackhole checksum = 125.
+3 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 1190 ms
+    maximum run was in 1374 ms
+    minimum run was in 1184 ms
+    blackhole checksum = 125.
+4 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 935 ms
+    maximum run was in 985 ms
+    minimum run was in 890 ms
+    blackhole checksum = 125.
+5 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 819 ms
+    maximum run was in 821 ms
+    minimum run was in 816 ms
+    blackhole checksum = 125.
+6 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 674 ms
+    maximum run was in 697 ms
+    minimum run was in 650 ms
+    blackhole checksum = 125.
+7 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 583 ms
+    maximum run was in 636 ms
+    minimum run was in 563 ms
+    blackhole checksum = 125.
+8 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 531 ms
+    maximum run was in 589 ms
+    minimum run was in 516 ms
+    blackhole checksum = 125.
+9 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 504 ms
+    maximum run was in 599 ms
+    minimum run was in 478 ms
+    blackhole checksum = 125.
+10 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 434 ms
+    maximum run was in 440 ms
+    minimum run was in 431 ms
+    blackhole checksum = 125.
+11 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 407 ms
+    maximum run was in 492 ms
+    minimum run was in 403 ms
+    blackhole checksum = 125.
+12 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 440 ms
+    maximum run was in 469 ms
+    minimum run was in 412 ms
+    blackhole checksum = 125.
+13 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 410 ms
+    maximum run was in 447 ms
+    minimum run was in 377 ms
+    blackhole checksum = 125.
+14 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 394 ms
+    maximum run was in 404 ms
+    minimum run was in 360 ms
+    blackhole checksum = 125.
+15 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 370 ms
+    maximum run was in 400 ms
+    minimum run was in 348 ms
+    blackhole checksum = 125.
+16 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 352 ms
+    maximum run was in 380 ms
+    minimum run was in 330 ms
+    blackhole checksum = 125.
+17 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 342 ms
+    maximum run was in 374 ms
+    minimum run was in 315 ms
+    blackhole checksum = 125.
+18 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 336 ms
+    maximum run was in 364 ms
+    minimum run was in 307 ms
+    blackhole checksum = 125.
+19 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 321 ms
+    maximum run was in 345 ms
+    minimum run was in 306 ms
+    blackhole checksum = 125.
+20 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 314 ms
+    maximum run was in 332 ms
+    minimum run was in 298 ms
+    blackhole checksum = 125.
+21 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 310 ms
+    maximum run was in 331 ms
+    minimum run was in 298 ms
+    blackhole checksum = 125.
+22 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 310 ms
+    maximum run was in 359 ms
+    minimum run was in 289 ms
+    blackhole checksum = 125.
+23 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 294 ms
+    maximum run was in 324 ms
+    minimum run was in 283 ms
+    blackhole checksum = 125.
+24 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 294 ms
+    maximum run was in 313 ms
+    minimum run was in 284 ms
+    blackhole checksum = 125.
+25 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 292 ms
+    maximum run was in 311 ms
+    minimum run was in 283 ms
+    blackhole checksum = 125.
+26 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 294 ms
+    maximum run was in 305 ms
+    minimum run was in 279 ms
+    blackhole checksum = 125.
+27 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 287 ms
+    maximum run was in 303 ms
+    minimum run was in 278 ms
+    blackhole checksum = 125.
+28 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 291 ms
+    maximum run was in 307 ms
+    minimum run was in 273 ms
+    blackhole checksum = 125.
+29 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 295 ms
+    maximum run was in 315 ms
+    minimum run was in 273 ms
+    blackhole checksum = 125.
+30 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 289 ms
+    maximum run was in 346 ms
+    minimum run was in 277 ms
+    blackhole checksum = 125.
+31 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 279 ms
+    maximum run was in 325 ms
+    minimum run was in 257 ms
+    blackhole checksum = 125.
+32 THREADS:
+    Warming up... done, blackhole checksum = 50.
+    median  run was in 307 ms
+    maximum run was in 354 ms
+    minimum run was in 271 ms
+    blackhole checksum = 125.
+DIMENSION: 9
+1 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 3725 ms
+    maximum run was in 3838 ms
+    minimum run was in 3715 ms
+    blackhole checksum = 100.
+2 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 2100 ms
+    maximum run was in 2103 ms
+    minimum run was in 1890 ms
+    blackhole checksum = 100.
+3 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 1265 ms
+    maximum run was in 1299 ms
+    minimum run was in 1247 ms
+    blackhole checksum = 100.
+4 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 986 ms
+    maximum run was in 1061 ms
+    minimum run was in 981 ms
+    blackhole checksum = 100.
+5 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 818 ms
+    maximum run was in 914 ms
+    minimum run was in 815 ms
+    blackhole checksum = 100.
+6 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 697 ms
+    maximum run was in 715 ms
+    minimum run was in 694 ms
+    blackhole checksum = 100.
+7 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 623 ms
+    maximum run was in 674 ms
+    minimum run was in 617 ms
+    blackhole checksum = 100.
+8 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 528 ms
+    maximum run was in 561 ms
+    minimum run was in 523 ms
+    blackhole checksum = 100.
+9 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 485 ms
+    maximum run was in 505 ms
+    minimum run was in 481 ms
+    blackhole checksum = 100.
+10 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 524 ms
+    maximum run was in 571 ms
+    minimum run was in 494 ms
+    blackhole checksum = 100.
+11 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 465 ms
+    maximum run was in 495 ms
+    minimum run was in 405 ms
+    blackhole checksum = 100.
+12 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 444 ms
+    maximum run was in 478 ms
+    minimum run was in 412 ms
+    blackhole checksum = 100.
+13 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 371 ms
+    maximum run was in 454 ms
+    minimum run was in 350 ms
+    blackhole checksum = 100.
+14 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 333 ms
+    maximum run was in 377 ms
+    minimum run was in 326 ms
+    blackhole checksum = 100.
+15 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 368 ms
+    maximum run was in 383 ms
+    minimum run was in 340 ms
+    blackhole checksum = 100.
+16 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 345 ms
+    maximum run was in 382 ms
+    minimum run was in 326 ms
+    blackhole checksum = 100.
+17 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 334 ms
+    maximum run was in 362 ms
+    minimum run was in 312 ms
+    blackhole checksum = 100.
+18 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 329 ms
+    maximum run was in 349 ms
+    minimum run was in 308 ms
+    blackhole checksum = 100.
+19 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 320 ms
+    maximum run was in 341 ms
+    minimum run was in 303 ms
+    blackhole checksum = 100.
+20 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 316 ms
+    maximum run was in 334 ms
+    minimum run was in 292 ms
+    blackhole checksum = 100.
+21 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 311 ms
+    maximum run was in 335 ms
+    minimum run was in 298 ms
+    blackhole checksum = 100.
+22 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 299 ms
+    maximum run was in 327 ms
+    minimum run was in 286 ms
+    blackhole checksum = 100.
+23 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 305 ms
+    maximum run was in 317 ms
+    minimum run was in 281 ms
+    blackhole checksum = 100.
+24 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 298 ms
+    maximum run was in 327 ms
+    minimum run was in 287 ms
+    blackhole checksum = 100.
+25 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 295 ms
+    maximum run was in 324 ms
+    minimum run was in 281 ms
+    blackhole checksum = 100.
+26 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 299 ms
+    maximum run was in 310 ms
+    minimum run was in 279 ms
+    blackhole checksum = 100.
+27 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 288 ms
+    maximum run was in 323 ms
+    minimum run was in 272 ms
+    blackhole checksum = 100.
+28 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 291 ms
+    maximum run was in 311 ms
+    minimum run was in 277 ms
+    blackhole checksum = 100.
+29 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 295 ms
+    maximum run was in 320 ms
+    minimum run was in 279 ms
+    blackhole checksum = 100.
+30 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 302 ms
+    maximum run was in 360 ms
+    minimum run was in 279 ms
+    blackhole checksum = 100.
+31 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 290 ms
+    maximum run was in 329 ms
+    minimum run was in 261 ms
+    blackhole checksum = 100.
+32 THREADS:
+    Warming up... done, blackhole checksum = 40.
+    median  run was in 319 ms
+    maximum run was in 377 ms
+    minimum run was in 276 ms
+    blackhole checksum = 100.
+DIMENSION: 10
+1 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 3556 ms
+    maximum run was in 3683 ms
+    minimum run was in 3548 ms
+    blackhole checksum = 75.
+2 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 1807 ms
+    maximum run was in 2021 ms
+    minimum run was in 1799 ms
+    blackhole checksum = 75.
+3 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 1369 ms
+    maximum run was in 1416 ms
+    minimum run was in 1363 ms
+    blackhole checksum = 75.
+4 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 1049 ms
+    maximum run was in 1053 ms
+    minimum run was in 994 ms
+    blackhole checksum = 75.
+5 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 807 ms
+    maximum run was in 818 ms
+    minimum run was in 739 ms
+    blackhole checksum = 75.
+6 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 697 ms
+    maximum run was in 733 ms
+    minimum run was in 665 ms
+    blackhole checksum = 75.
+7 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 599 ms
+    maximum run was in 622 ms
+    minimum run was in 582 ms
+    blackhole checksum = 75.
+8 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 544 ms
+    maximum run was in 551 ms
+    minimum run was in 516 ms
+    blackhole checksum = 75.
+9 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 497 ms
+    maximum run was in 586 ms
+    minimum run was in 483 ms
+    blackhole checksum = 75.
+10 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 442 ms
+    maximum run was in 517 ms
+    minimum run was in 424 ms
+    blackhole checksum = 75.
+11 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 417 ms
+    maximum run was in 481 ms
+    minimum run was in 414 ms
+    blackhole checksum = 75.
+12 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 428 ms
+    maximum run was in 458 ms
+    minimum run was in 408 ms
+    blackhole checksum = 75.
+13 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 396 ms
+    maximum run was in 423 ms
+    minimum run was in 355 ms
+    blackhole checksum = 75.
+14 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 371 ms
+    maximum run was in 391 ms
+    minimum run was in 355 ms
+    blackhole checksum = 75.
+15 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 360 ms
+    maximum run was in 392 ms
+    minimum run was in 337 ms
+    blackhole checksum = 75.
+16 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 356 ms
+    maximum run was in 380 ms
+    minimum run was in 322 ms
+    blackhole checksum = 75.
+17 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 337 ms
+    maximum run was in 349 ms
+    minimum run was in 331 ms
+    blackhole checksum = 75.
+18 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 320 ms
+    maximum run was in 344 ms
+    minimum run was in 308 ms
+    blackhole checksum = 75.
+19 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 320 ms
+    maximum run was in 344 ms
+    minimum run was in 303 ms
+    blackhole checksum = 75.
+20 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 313 ms
+    maximum run was in 331 ms
+    minimum run was in 300 ms
+    blackhole checksum = 75.
+21 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 312 ms
+    maximum run was in 329 ms
+    minimum run was in 296 ms
+    blackhole checksum = 75.
+22 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 296 ms
+    maximum run was in 310 ms
+    minimum run was in 279 ms
+    blackhole checksum = 75.
+23 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 298 ms
+    maximum run was in 323 ms
+    minimum run was in 278 ms
+    blackhole checksum = 75.
+24 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 297 ms
+    maximum run was in 309 ms
+    minimum run was in 277 ms
+    blackhole checksum = 75.
+25 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 291 ms
+    maximum run was in 305 ms
+    minimum run was in 272 ms
+    blackhole checksum = 75.
+26 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 290 ms
+    maximum run was in 304 ms
+    minimum run was in 277 ms
+    blackhole checksum = 75.
+27 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 288 ms
+    maximum run was in 312 ms
+    minimum run was in 269 ms
+    blackhole checksum = 75.
+28 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 293 ms
+    maximum run was in 309 ms
+    minimum run was in 267 ms
+    blackhole checksum = 75.
+29 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 287 ms
+    maximum run was in 328 ms
+    minimum run was in 258 ms
+    blackhole checksum = 75.
+30 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 280 ms
+    maximum run was in 329 ms
+    minimum run was in 262 ms
+    blackhole checksum = 75.
+31 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 279 ms
+    maximum run was in 310 ms
+    minimum run was in 255 ms
+    blackhole checksum = 75.
+32 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 293 ms
+    maximum run was in 337 ms
+    minimum run was in 260 ms
+    blackhole checksum = 75.
+DIMENSION: 11
+1 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 4495 ms
+    maximum run was in 4545 ms
+    minimum run was in 4489 ms
+    blackhole checksum = 75.
+2 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 2531 ms
+    maximum run was in 2539 ms
+    minimum run was in 2527 ms
+    blackhole checksum = 75.
+3 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 1647 ms
+    maximum run was in 1726 ms
+    minimum run was in 1643 ms
+    blackhole checksum = 75.
+4 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 1173 ms
+    maximum run was in 1177 ms
+    minimum run was in 1171 ms
+    blackhole checksum = 75.
+5 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 951 ms
+    maximum run was in 954 ms
+    minimum run was in 948 ms
+    blackhole checksum = 75.
+6 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 786 ms
+    maximum run was in 913 ms
+    minimum run was in 780 ms
+    blackhole checksum = 75.
+7 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 680 ms
+    maximum run was in 712 ms
+    minimum run was in 677 ms
+    blackhole checksum = 75.
+8 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 608 ms
+    maximum run was in 620 ms
+    minimum run was in 603 ms
+    blackhole checksum = 75.
+9 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 569 ms
+    maximum run was in 667 ms
+    minimum run was in 561 ms
+    blackhole checksum = 75.
+10 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 503 ms
+    maximum run was in 506 ms
+    minimum run was in 499 ms
+    blackhole checksum = 75.
+11 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 564 ms
+    maximum run was in 619 ms
+    minimum run was in 533 ms
+    blackhole checksum = 75.
+12 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 508 ms
+    maximum run was in 558 ms
+    minimum run was in 437 ms
+    blackhole checksum = 75.
+13 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 469 ms
+    maximum run was in 500 ms
+    minimum run was in 441 ms
+    blackhole checksum = 75.
+14 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 431 ms
+    maximum run was in 486 ms
+    minimum run was in 406 ms
+    blackhole checksum = 75.
+15 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 416 ms
+    maximum run was in 453 ms
+    minimum run was in 378 ms
+    blackhole checksum = 75.
+16 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 406 ms
+    maximum run was in 433 ms
+    minimum run was in 375 ms
+    blackhole checksum = 75.
+17 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 387 ms
+    maximum run was in 407 ms
+    minimum run was in 357 ms
+    blackhole checksum = 75.
+18 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 375 ms
+    maximum run was in 398 ms
+    minimum run was in 358 ms
+    blackhole checksum = 75.
+19 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 376 ms
+    maximum run was in 396 ms
+    minimum run was in 351 ms
+    blackhole checksum = 75.
+20 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 367 ms
+    maximum run was in 393 ms
+    minimum run was in 349 ms
+    blackhole checksum = 75.
+21 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 356 ms
+    maximum run was in 372 ms
+    minimum run was in 337 ms
+    blackhole checksum = 75.
+22 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 339 ms
+    maximum run was in 353 ms
+    minimum run was in 329 ms
+    blackhole checksum = 75.
+23 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 338 ms
+    maximum run was in 369 ms
+    minimum run was in 322 ms
+    blackhole checksum = 75.
+24 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 333 ms
+    maximum run was in 353 ms
+    minimum run was in 313 ms
+    blackhole checksum = 75.
+25 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 329 ms
+    maximum run was in 343 ms
+    minimum run was in 315 ms
+    blackhole checksum = 75.
+26 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 325 ms
+    maximum run was in 334 ms
+    minimum run was in 304 ms
+    blackhole checksum = 75.
+27 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 320 ms
+    maximum run was in 348 ms
+    minimum run was in 302 ms
+    blackhole checksum = 75.
+28 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 321 ms
+    maximum run was in 348 ms
+    minimum run was in 301 ms
+    blackhole checksum = 75.
+29 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 321 ms
+    maximum run was in 358 ms
+    minimum run was in 301 ms
+    blackhole checksum = 75.
+30 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 315 ms
+    maximum run was in 360 ms
+    minimum run was in 299 ms
+    blackhole checksum = 75.
+31 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 309 ms
+    maximum run was in 339 ms
+    minimum run was in 292 ms
+    blackhole checksum = 75.
+32 THREADS:
+    Warming up... done, blackhole checksum = 30.
+    median  run was in 317 ms
+    maximum run was in 336 ms
+    minimum run was in 292 ms
+    blackhole checksum = 75.
+DIMENSION: 12
+1 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 4639 ms
+    maximum run was in 4967 ms
+    minimum run was in 4633 ms
+    blackhole checksum = 50.
+2 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 2411 ms
+    maximum run was in 2765 ms
+    minimum run was in 2404 ms
+    blackhole checksum = 50.
+3 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 1728 ms
+    maximum run was in 2161 ms
+    minimum run was in 1723 ms
+    blackhole checksum = 50.
+4 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 1307 ms
+    maximum run was in 1402 ms
+    minimum run was in 1217 ms
+    blackhole checksum = 50.
+5 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 969 ms
+    maximum run was in 1001 ms
+    minimum run was in 927 ms
+    blackhole checksum = 50.
+6 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 881 ms
+    maximum run was in 908 ms
+    minimum run was in 849 ms
+    blackhole checksum = 50.
+7 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 776 ms
+    maximum run was in 780 ms
+    minimum run was in 738 ms
+    blackhole checksum = 50.
+8 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 673 ms
+    maximum run was in 828 ms
+    minimum run was in 649 ms
+    blackhole checksum = 50.
+9 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 629 ms
+    maximum run was in 755 ms
+    minimum run was in 624 ms
+    blackhole checksum = 50.
+10 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 531 ms
+    maximum run was in 535 ms
+    minimum run was in 529 ms
+    blackhole checksum = 50.
+11 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 605 ms
+    maximum run was in 655 ms
+    minimum run was in 557 ms
+    blackhole checksum = 50.
+12 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 476 ms
+    maximum run was in 546 ms
+    minimum run was in 459 ms
+    blackhole checksum = 50.
+13 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 502 ms
+    maximum run was in 544 ms
+    minimum run was in 482 ms
+    blackhole checksum = 50.
+14 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 466 ms
+    maximum run was in 500 ms
+    minimum run was in 442 ms
+    blackhole checksum = 50.
+15 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 446 ms
+    maximum run was in 492 ms
+    minimum run was in 426 ms
+    blackhole checksum = 50.
+16 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 419 ms
+    maximum run was in 451 ms
+    minimum run was in 393 ms
+    blackhole checksum = 50.
+17 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 403 ms
+    maximum run was in 431 ms
+    minimum run was in 374 ms
+    blackhole checksum = 50.
+18 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 385 ms
+    maximum run was in 434 ms
+    minimum run was in 358 ms
+    blackhole checksum = 50.
+19 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 384 ms
+    maximum run was in 405 ms
+    minimum run was in 362 ms
+    blackhole checksum = 50.
+20 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 376 ms
+    maximum run was in 394 ms
+    minimum run was in 353 ms
+    blackhole checksum = 50.
+21 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 363 ms
+    maximum run was in 384 ms
+    minimum run was in 351 ms
+    blackhole checksum = 50.
+22 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 354 ms
+    maximum run was in 386 ms
+    minimum run was in 337 ms
+    blackhole checksum = 50.
+23 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 350 ms
+    maximum run was in 362 ms
+    minimum run was in 338 ms
+    blackhole checksum = 50.
+24 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 348 ms
+    maximum run was in 372 ms
+    minimum run was in 331 ms
+    blackhole checksum = 50.
+25 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 338 ms
+    maximum run was in 356 ms
+    minimum run was in 327 ms
+    blackhole checksum = 50.
+26 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 337 ms
+    maximum run was in 354 ms
+    minimum run was in 319 ms
+    blackhole checksum = 50.
+27 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 334 ms
+    maximum run was in 369 ms
+    minimum run was in 319 ms
+    blackhole checksum = 50.
+28 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 333 ms
+    maximum run was in 358 ms
+    minimum run was in 322 ms
+    blackhole checksum = 50.
+29 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 327 ms
+    maximum run was in 363 ms
+    minimum run was in 316 ms
+    blackhole checksum = 50.
+30 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 326 ms
+    maximum run was in 354 ms
+    minimum run was in 311 ms
+    blackhole checksum = 50.
+31 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 317 ms
+    maximum run was in 358 ms
+    minimum run was in 301 ms
+    blackhole checksum = 50.
+32 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 320 ms
+    maximum run was in 362 ms
+    minimum run was in 305 ms
+    blackhole checksum = 50.
+DIMENSION: 13
+1 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 4689 ms
+    maximum run was in 4820 ms
+    minimum run was in 4370 ms
+    blackhole checksum = 50.
+2 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 2620 ms
+    maximum run was in 2710 ms
+    minimum run was in 2312 ms
+    blackhole checksum = 50.
+3 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 2160 ms
+    maximum run was in 2172 ms
+    minimum run was in 1643 ms
+    blackhole checksum = 50.
+4 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 1176 ms
+    maximum run was in 1199 ms
+    minimum run was in 1161 ms
+    blackhole checksum = 50.
+5 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 957 ms
+    maximum run was in 994 ms
+    minimum run was in 950 ms
+    blackhole checksum = 50.
+6 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 883 ms
+    maximum run was in 987 ms
+    minimum run was in 845 ms
+    blackhole checksum = 50.
+7 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 774 ms
+    maximum run was in 807 ms
+    minimum run was in 772 ms
+    blackhole checksum = 50.
+8 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 675 ms
+    maximum run was in 724 ms
+    minimum run was in 667 ms
+    blackhole checksum = 50.
+9 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 637 ms
+    maximum run was in 684 ms
+    minimum run was in 633 ms
+    blackhole checksum = 50.
+10 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 649 ms
+    maximum run was in 715 ms
+    minimum run was in 568 ms
+    blackhole checksum = 50.
+11 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 521 ms
+    maximum run was in 625 ms
+    minimum run was in 514 ms
+    blackhole checksum = 50.
+12 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 523 ms
+    maximum run was in 591 ms
+    minimum run was in 478 ms
+    blackhole checksum = 50.
+13 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 493 ms
+    maximum run was in 555 ms
+    minimum run was in 470 ms
+    blackhole checksum = 50.
+14 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 471 ms
+    maximum run was in 496 ms
+    minimum run was in 451 ms
+    blackhole checksum = 50.
+15 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 418 ms
+    maximum run was in 477 ms
+    minimum run was in 403 ms
+    blackhole checksum = 50.
+16 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 411 ms
+    maximum run was in 439 ms
+    minimum run was in 389 ms
+    blackhole checksum = 50.
+17 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 430 ms
+    maximum run was in 459 ms
+    minimum run was in 389 ms
+    blackhole checksum = 50.
+18 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 399 ms
+    maximum run was in 441 ms
+    minimum run was in 365 ms
+    blackhole checksum = 50.
+19 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 395 ms
+    maximum run was in 407 ms
+    minimum run was in 359 ms
+    blackhole checksum = 50.
+20 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 368 ms
+    maximum run was in 389 ms
+    minimum run was in 358 ms
+    blackhole checksum = 50.
+21 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 378 ms
+    maximum run was in 414 ms
+    minimum run was in 364 ms
+    blackhole checksum = 50.
+22 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 363 ms
+    maximum run was in 394 ms
+    minimum run was in 350 ms
+    blackhole checksum = 50.
+23 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 357 ms
+    maximum run was in 377 ms
+    minimum run was in 345 ms
+    blackhole checksum = 50.
+24 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 351 ms
+    maximum run was in 369 ms
+    minimum run was in 340 ms
+    blackhole checksum = 50.
+25 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 347 ms
+    maximum run was in 360 ms
+    minimum run was in 337 ms
+    blackhole checksum = 50.
+26 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 340 ms
+    maximum run was in 370 ms
+    minimum run was in 329 ms
+    blackhole checksum = 50.
+27 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 336 ms
+    maximum run was in 358 ms
+    minimum run was in 319 ms
+    blackhole checksum = 50.
+28 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 332 ms
+    maximum run was in 354 ms
+    minimum run was in 322 ms
+    blackhole checksum = 50.
+29 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 331 ms
+    maximum run was in 381 ms
+    minimum run was in 317 ms
+    blackhole checksum = 50.
+30 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 335 ms
+    maximum run was in 359 ms
+    minimum run was in 309 ms
+    blackhole checksum = 50.
+31 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 317 ms
+    maximum run was in 356 ms
+    minimum run was in 303 ms
+    blackhole checksum = 50.
+32 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 329 ms
+    maximum run was in 399 ms
+    minimum run was in 305 ms
+    blackhole checksum = 50.
+DIMENSION: 14
+1 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 4644 ms
+    maximum run was in 4767 ms
+    minimum run was in 4635 ms
+    blackhole checksum = 50.
+2 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 2596 ms
+    maximum run was in 2604 ms
+    minimum run was in 2356 ms
+    blackhole checksum = 50.
+3 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 1768 ms
+    maximum run was in 1804 ms
+    minimum run was in 1519 ms
+    blackhole checksum = 50.
+4 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 1208 ms
+    maximum run was in 1296 ms
+    minimum run was in 1167 ms
+    blackhole checksum = 50.
+5 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 1048 ms
+    maximum run was in 1086 ms
+    minimum run was in 1045 ms
+    blackhole checksum = 50.
+6 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 854 ms
+    maximum run was in 931 ms
+    minimum run was in 810 ms
+    blackhole checksum = 50.
+7 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 736 ms
+    maximum run was in 924 ms
+    minimum run was in 695 ms
+    blackhole checksum = 50.
+8 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 675 ms
+    maximum run was in 679 ms
+    minimum run was in 671 ms
+    blackhole checksum = 50.
+9 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 602 ms
+    maximum run was in 619 ms
+    minimum run was in 597 ms
+    blackhole checksum = 50.
+10 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 566 ms
+    maximum run was in 685 ms
+    minimum run was in 557 ms
+    blackhole checksum = 50.
+11 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 493 ms
+    maximum run was in 516 ms
+    minimum run was in 488 ms
+    blackhole checksum = 50.
+12 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 590 ms
+    maximum run was in 618 ms
+    minimum run was in 520 ms
+    blackhole checksum = 50.
+13 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 519 ms
+    maximum run was in 552 ms
+    minimum run was in 442 ms
+    blackhole checksum = 50.
+14 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 474 ms
+    maximum run was in 501 ms
+    minimum run was in 453 ms
+    blackhole checksum = 50.
+15 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 448 ms
+    maximum run was in 480 ms
+    minimum run was in 419 ms
+    blackhole checksum = 50.
+16 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 448 ms
+    maximum run was in 498 ms
+    minimum run was in 414 ms
+    blackhole checksum = 50.
+17 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 421 ms
+    maximum run was in 472 ms
+    minimum run was in 391 ms
+    blackhole checksum = 50.
+18 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 400 ms
+    maximum run was in 444 ms
+    minimum run was in 384 ms
+    blackhole checksum = 50.
+19 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 403 ms
+    maximum run was in 428 ms
+    minimum run was in 365 ms
+    blackhole checksum = 50.
+20 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 388 ms
+    maximum run was in 411 ms
+    minimum run was in 371 ms
+    blackhole checksum = 50.
+21 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 387 ms
+    maximum run was in 420 ms
+    minimum run was in 360 ms
+    blackhole checksum = 50.
+22 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 382 ms
+    maximum run was in 404 ms
+    minimum run was in 356 ms
+    blackhole checksum = 50.
+23 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 372 ms
+    maximum run was in 413 ms
+    minimum run was in 355 ms
+    blackhole checksum = 50.
+24 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 367 ms
+    maximum run was in 392 ms
+    minimum run was in 349 ms
+    blackhole checksum = 50.
+25 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 360 ms
+    maximum run was in 378 ms
+    minimum run was in 340 ms
+    blackhole checksum = 50.
+26 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 350 ms
+    maximum run was in 381 ms
+    minimum run was in 340 ms
+    blackhole checksum = 50.
+27 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 347 ms
+    maximum run was in 372 ms
+    minimum run was in 335 ms
+    blackhole checksum = 50.
+28 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 353 ms
+    maximum run was in 369 ms
+    minimum run was in 327 ms
+    blackhole checksum = 50.
+29 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 348 ms
+    maximum run was in 377 ms
+    minimum run was in 333 ms
+    blackhole checksum = 50.
+30 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 341 ms
+    maximum run was in 378 ms
+    minimum run was in 323 ms
+    blackhole checksum = 50.
+31 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 335 ms
+    maximum run was in 369 ms
+    minimum run was in 321 ms
+    blackhole checksum = 50.
+32 THREADS:
+    Warming up... done, blackhole checksum = 20.
+    median  run was in 345 ms
+    maximum run was in 396 ms
+    minimum run was in 314 ms
+    blackhole checksum = 50.
+DIMENSION: 15
+1 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 5556 ms
+    maximum run was in 5794 ms
+    minimum run was in 5538 ms
+    blackhole checksum = 25.
+2 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 3111 ms
+    maximum run was in 3118 ms
+    minimum run was in 3070 ms
+    blackhole checksum = 25.
+3 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 2003 ms
+    maximum run was in 2006 ms
+    minimum run was in 1836 ms
+    blackhole checksum = 25.
+4 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 1439 ms
+    maximum run was in 1513 ms
+    minimum run was in 1318 ms
+    blackhole checksum = 25.
+5 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 1238 ms
+    maximum run was in 1313 ms
+    minimum run was in 1171 ms
+    blackhole checksum = 25.
+6 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 996 ms
+    maximum run was in 1002 ms
+    minimum run was in 960 ms
+    blackhole checksum = 25.
+7 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 878 ms
+    maximum run was in 996 ms
+    minimum run was in 855 ms
+    blackhole checksum = 25.
+8 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 743 ms
+    maximum run was in 776 ms
+    minimum run was in 739 ms
+    blackhole checksum = 25.
+9 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 744 ms
+    maximum run was in 890 ms
+    minimum run was in 692 ms
+    blackhole checksum = 25.
+10 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 766 ms
+    maximum run was in 820 ms
+    minimum run was in 639 ms
+    blackhole checksum = 25.
+11 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 591 ms
+    maximum run was in 671 ms
+    minimum run was in 577 ms
+    blackhole checksum = 25.
+12 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 636 ms
+    maximum run was in 660 ms
+    minimum run was in 554 ms
+    blackhole checksum = 25.
+13 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 564 ms
+    maximum run was in 613 ms
+    minimum run was in 528 ms
+    blackhole checksum = 25.
+14 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 534 ms
+    maximum run was in 569 ms
+    minimum run was in 478 ms
+    blackhole checksum = 25.
+15 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 503 ms
+    maximum run was in 532 ms
+    minimum run was in 478 ms
+    blackhole checksum = 25.
+16 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 497 ms
+    maximum run was in 543 ms
+    minimum run was in 475 ms
+    blackhole checksum = 25.
+17 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 455 ms
+    maximum run was in 499 ms
+    minimum run was in 436 ms
+    blackhole checksum = 25.
+18 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 439 ms
+    maximum run was in 478 ms
+    minimum run was in 420 ms
+    blackhole checksum = 25.
+19 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 437 ms
+    maximum run was in 469 ms
+    minimum run was in 409 ms
+    blackhole checksum = 25.
+20 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 420 ms
+    maximum run was in 450 ms
+    minimum run was in 397 ms
+    blackhole checksum = 25.
+21 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 417 ms
+    maximum run was in 445 ms
+    minimum run was in 395 ms
+    blackhole checksum = 25.
+22 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 399 ms
+    maximum run was in 441 ms
+    minimum run was in 389 ms
+    blackhole checksum = 25.
+23 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 397 ms
+    maximum run was in 412 ms
+    minimum run was in 379 ms
+    blackhole checksum = 25.
+24 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 390 ms
+    maximum run was in 410 ms
+    minimum run was in 373 ms
+    blackhole checksum = 25.
+25 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 386 ms
+    maximum run was in 429 ms
+    minimum run was in 371 ms
+    blackhole checksum = 25.
+26 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 377 ms
+    maximum run was in 418 ms
+    minimum run was in 362 ms
+    blackhole checksum = 25.
+27 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 372 ms
+    maximum run was in 385 ms
+    minimum run was in 359 ms
+    blackhole checksum = 25.
+28 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 369 ms
+    maximum run was in 397 ms
+    minimum run was in 355 ms
+    blackhole checksum = 25.
+29 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 365 ms
+    maximum run was in 385 ms
+    minimum run was in 355 ms
+    blackhole checksum = 25.
+30 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 365 ms
+    maximum run was in 397 ms
+    minimum run was in 352 ms
+    blackhole checksum = 25.
+31 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 353 ms
+    maximum run was in 404 ms
+    minimum run was in 339 ms
+    blackhole checksum = 25.
+32 THREADS:
+    Warming up... done, blackhole checksum = 10.
+    median  run was in 362 ms
+    maximum run was in 415 ms
+    minimum run was in 343 ms
+    blackhole checksum = 25.
