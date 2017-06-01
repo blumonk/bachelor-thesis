@@ -1,29 +1,14 @@
 package nds;
-/*
- * Copyright 2015 Maxim Buzdalov
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
-import java.util.concurrent.*;
+import java.util.concurrent.ForkJoinPool;
+import java.util.concurrent.RecursiveAction;
+import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.atomic.AtomicIntegerArray;
 import java.util.function.IntBinaryOperator;
 
 
-public final class ParallelNDS {
+public final class ParallelRedBlackTree {
 
     private static final IntBinaryOperator MAXIMUM = Math::max;
 
@@ -31,142 +16,7 @@ public final class ParallelNDS {
         if (dim < 0 || size < 0) {
             throw new IllegalArgumentException("Size or dimension is negative");
         }
-        if (size == 0) {
-            return new SorterEmpty(dim);
-        }
-        switch (dim) {
-            case 0:
-                return new Sorter0D(size);
-            case 1:
-                return new Sorter1D(size);
-            default:
-                return new SorterXD(size, dim, threshold);
-        }
-    }
-
-    /**
-     * A base class for all sorters.
-     * A sorter supports two getter methods (for size and dimension)
-     * and the method for actual sorting.
-     */
-    public static abstract class Sorter {
-        protected final int size;
-        protected final int dim;
-
-        protected Sorter(int size, int dim) {
-            this.size = size;
-            this.dim = dim;
-        }
-
-        /**
-         * Returns the size of the problem this sorter can handle.
-         *
-         * @return the size of the problem.
-         */
-        public int size() {
-            return size;
-        }
-
-        /**
-         * Returns the dimension of the problem this sorter can handle.
-         *
-         * @return the dimension of the problem.
-         */
-        public int dimension() {
-            return dim;
-        }
-
-        /**
-         * Performs the non-dominated sorting of the given input array
-         * and stores the results in the given output array.
-         * <p>
-         * The input array should have the dimensions of exactly {#size()} * {#dimension()},
-         * otherwise an IllegalArgumentException is thrown.
-         * <p>
-         * The output array should have the dimension of exactly {#size()},
-         * otherwise an IllegalArgumentException is thrown.
-         * <p>
-         * The method does not change the {#input} array and fills the {#output} array by layer indices:
-         * <code>i</code>th element of {#output} will be the layer index of the <code>i</code>th point from {#input}.
-         * The layer 0 corresponds to the non-dominated layer of solutions, the layer 1 corresponds to solutions which
-         * are dominated by solutions from layer 0 only, and so far.
-         *
-         * @param input  the input array which is to be sorted.
-         * @param output the output array which is filled with the front indices of the corresponding input elements.
-         */
-        public void sort(double[][] input, int[] output) {
-            if (input.length != size) {
-                throw new IllegalArgumentException(
-                        "Input size (" + input.length + ") does not match the sorter's size (" + size + ")"
-                );
-            }
-            if (output.length != size) {
-                throw new IllegalArgumentException(
-                        "Output size (" + output.length + ") does not match the sorter's size (" + size + ")"
-                );
-            }
-            for (int i = 0; i < size; ++i) {
-                if (input[i].length != dim) {
-                    throw new IllegalArgumentException(
-                            "Input dimension at index " + i + " (" + input[i].length +
-                                    ") does not match the sorter's dimension (" + dim + ")"
-                    );
-                }
-            }
-            sortImpl(input, output);
-        }
-
-        protected abstract void sortImpl(double[][] input, int[] output);
-    }
-
-    // Empty sorter: to rule out the case of empty input array.
-    private static final class SorterEmpty extends Sorter {
-        public SorterEmpty(int dim) {
-            super(0, dim);
-        }
-
-        protected void sortImpl(double[][] input, int[] output) {
-            // do nothing
-        }
-    }
-
-    // 0D sorter: zero out the answer.
-    private static final class Sorter0D extends Sorter {
-        public Sorter0D(int size) {
-            super(size, 0);
-        }
-
-        protected void sortImpl(double[][] input, int[] output) {
-            Arrays.fill(output, 0);
-        }
-    }
-
-    // 1D sorter: do the sorting and uniquification.
-    private static final class Sorter1D extends Sorter {
-        private final int[] indices;
-        private final MergeSorter sorter;
-
-        public Sorter1D(int size) {
-            super(size, 1);
-            indices = new int[size];
-            sorter = new MergeSorter(size);
-        }
-
-        protected void sortImpl(double[][] input, int[] output) {
-            for (int i = 0; i < size; ++i) {
-                indices[i] = i;
-            }
-            sorter.sort(indices, 0, size, input, 0);
-            output[indices[0]] = 0;
-            for (int i = 1; i < size; ++i) {
-                int prev = indices[i - 1], curr = indices[i];
-                if (input[prev][0] == input[curr][0]) {
-                    output[curr] = output[prev];
-                } else {
-                    output[curr] = output[prev] + 1;
-                }
-            }
-        }
+        return new SorterXD(size, dim, threshold);
     }
 
     // XD sorter: the general case.
@@ -185,13 +35,15 @@ public final class ParallelNDS {
         private final ThreadLocal<double[]> fenwickPivots = ThreadLocal.withInitial(() -> new double[size]);
         private final ThreadLocal<Integer> fenwickSize = ThreadLocal.withInitial(() -> 0);
 
+        private final ThreadLocal<RedBlackTree> tree = ThreadLocal.withInitial(() -> new RedBlackTree(size));
+
         private final ThreadLocal<Integer> lessThan = ThreadLocal.withInitial(() -> 0);
         private final ThreadLocal<Integer> equalTo = ThreadLocal.withInitial(() -> 0);
         private final ThreadLocal<Integer> greaterThan = ThreadLocal.withInitial(() -> 0);
 
-//        private static final int N_THREADS = Integer.parseInt(System.getProperty("threads"));
         private static final int N_THREADS = 4;
         private static final ForkJoinPool pool = new ForkJoinPool(N_THREADS);
+//        private static final ForkJoinPool pool = new ForkJoinPool(Integer.parseInt(System.getProperty("threads")));
 
         private void fenwickInit(int[] inIdx, int from, int until) {
             double[] fenwickPivots = this.fenwickPivots.get();
@@ -368,15 +220,16 @@ public final class ParallelNDS {
         // SweepB
         private void sortHighByLow2D(int[] lIndices, int[] hIndices) {
             int li = 0, ln = lIndices.length, hn = hIndices.length;
-            fenwickInit(lIndices, 0, ln);
+            RedBlackTree t = tree.get();
+            t.clear();
             for (int hi = 0; hi < hn; ++hi) {
                 int currH = hIndices[hi];
                 int eCurrH = eqComp[currH];
                 while (li < ln && eqComp[lIndices[li]] < eCurrH) {
                     int currL = lIndices[li++];
-                    fenwickSet(input[currL][1], output.get(currL));
+                    t.insert(input[currL][1], output.get(currL));
                 }
-                output.accumulateAndGet(currH, fenwickQuery(input[currH][1]) + 1, MAXIMUM);
+                output.accumulateAndGet(currH, t.maxBefore(input[currH][1]) + 1, MAXIMUM);
             }
         }
 
@@ -513,15 +366,6 @@ public final class ParallelNDS {
             }
         }
 
-        private class Context {
-            List<int[]> toCompare;
-            List<Future> toWait;
-            public Context(List<int[]> toCompare, List<Future> toWait) {
-                this.toCompare = toCompare;
-                this.toWait = toWait;
-            }
-        }
-
         // NDHelperA
         private void sort(int from, int until, int dimension) {
             int size = until - from;
@@ -538,35 +382,50 @@ public final class ParallelNDS {
                     } else {
                         System.arraycopy(indices, from, swap.get(), from, size);
                         double median = medianInSwap(from, until, dimension);
+
                         split3(indices, from, until, dimension, median);
                         int midL = from + lessThan.get(), midH = midL + equalTo.get();
-                        int lSize = midL - from, hSize = midH - midL;
+                        final int lSize = midL - from, mSize = midH - midL, hSize = until - midH, lmSize = midH - from;
                         int[] lIndices, hIndices;
 
                         sort(from, midL, dimension);
 
-                        if (lSize < threshold || hSize < threshold || dimension == 2) {
-                            sortHighByLow(indices, from, midL, midL, midH, dimension);
+                        if (lSize == 1) {
+                            for (int hi = midL; hi < midH; ++hi)
+                                if (dominatesEq(indices[from], indices[hi], dimension - 1))
+                                    updateFront(indices[hi], indices[from]);
+                        } else if (mSize == 1) {
+                            for (int li = from; li < midL; ++li)
+                                if (dominatesEq(indices[li], indices[midL], dimension - 1))
+                                    updateFront(indices[midL], indices[li]);
+                        } else if (dimension == 2) {
+                            sortHighByLow2D(indices, from, midL, midL, midH);
                         } else {
-                            lIndices = new int[lSize]; hIndices = new int[hSize];
-                            System.arraycopy(indices, from, lIndices, 0, lSize);
-                            System.arraycopy(indices, midL, hIndices, 0, hSize);
-                            pool.invoke(new SortHighByLow(lIndices, hIndices, dimension - 1));
+                            sortHighByLow(indices, from, midL, midL, midH, dimension - 1);
                         }
 
                         sort(midL, midH, dimension - 1);
                         merge(indices, from, midL, midH);
 
-                        lSize = midH - from; hSize = until - midH;
-                        if (lSize < threshold || hSize < threshold || dimension == 2) {
+                        if (lmSize == 1) {
+                            for (int hi = midH; hi < until; ++hi)
+                                if (dominatesEq(indices[from], indices[hi], dimension - 1))
+                                    updateFront(indices[hi], indices[from]);
+                        } else if (hSize == 1) {
+                            for (int li = from; li < midH; ++li)
+                                if (dominatesEq(indices[li], indices[midH], dimension - 1))
+                                    updateFront(indices[midH], indices[li]);
+                        } else if (dimension == 2) {
+                            sortHighByLow2D(indices, from, midH, midH, until);
+                        } else if (lmSize < threshold || hSize < threshold) {
                             sortHighByLow(indices, from, midH, midH, until, dimension - 1);
                         } else {
-                            lIndices = new int[lSize]; hIndices = new int[hSize];
-                            System.arraycopy(indices, from, lIndices, 0, lSize);
+                            lIndices = new int[lmSize];
+                            hIndices = new int[hSize];
+                            System.arraycopy(indices, from, lIndices, 0, lmSize);
                             System.arraycopy(indices, midH, hIndices, 0, hSize);
                             pool.invoke(new SortHighByLow(lIndices, hIndices, dimension - 1));
                         }
-
                         sort(midH, until, dimension);
                         merge(indices, from, midH, until);
                     }
@@ -576,7 +435,8 @@ public final class ParallelNDS {
 
         // SweepA
         private void sort2D(int from, int until) {
-            fenwickInit(indices, from, until);
+            RedBlackTree t = tree.get();
+            t.clear();
             int curr = from;
             while (curr < until) {
                 int currI = indices[curr];
@@ -584,11 +444,11 @@ public final class ParallelNDS {
                 while (next < until && eqComp[indices[next]] == eqComp[currI]) {
                     ++next;
                 }
-                int result = output.accumulateAndGet(currI, fenwickQuery(input[currI][1]) + 1, MAXIMUM);
+                int result = output.accumulateAndGet(currI, t.maxBefore(input[currI][1]) + 1, MAXIMUM);
                 for (int i = curr; i < next; ++i) {
                     output.set(indices[i], result);
                 }
-                fenwickSet(input[currI][1], result);
+                t.insert(input[currI][1], result);
                 curr = next;
             }
         }

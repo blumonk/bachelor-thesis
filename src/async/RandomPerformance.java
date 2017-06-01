@@ -1,15 +1,14 @@
-package nds;
+package async;
 
-import java.util.*;
-import java.util.stream.Collectors;
+import java.util.Arrays;
+import java.util.Random;
 
 public class RandomPerformance {
-    private static double randomCube(int n, int dim, int times, int threshold, boolean silent) {
+    private static double randomCube(int n, int dim, int times, int ndb, int nda, boolean silent) {
         double[][] points = new double[n][dim];
         int[] result = new int[n];
 
-        ParallelNDS.Sorter sorter = ParallelNDS.getSorter(n, dim, threshold);
-//        OriginalNDS.Sorter sorter = OriginalNDS.getSorter(n, dim);
+        Sorter sorter = Async.getSorter(n, dim, ndb, nda);
 
         long[] nanos = new long[times];
         Random random = new Random();
@@ -39,29 +38,36 @@ public class RandomPerformance {
         for (long nano : nanos) sum += nano;
         double median = (nanos[times / 2] + nanos[times - 1 - times / 2]) / 2.0;
         if (!silent) {
-            System.out.printf("    n = %d, dim = %2d, times = %d: average %.2e, min %.2e, max %.2e, median %.2e%n",
-                    n, dim, times, sum / times / 1e6, nanos[0] / 1e6, nanos[times - 1] / 1e6, median / 1e6);
+            System.out.printf("dim = %2d ndb = %3d nda = %5d average %.2e, min %.2e, max %.2e, median %.2e,%n",
+                    dim, ndb, nda, sum / times / 1e6, nanos[0] / 1e6, nanos[times - 1] / 1e6, median / 1e6);
         }
         return median/1e6;
     }
 
     public static void main(String[] args) {
-        System.out.println("randomCube:");
-        for (int i = 1; i <= 100; ++i) {
-            randomCube(1000, i / 10, 10, 64, true);
+        for (int i = 20; i <= 150; ++i) {
+            randomCube(1000, i / 10, 10, 64, 64, true);
         }
-        System.out.println("    warmed up");
-
-//        int size = Integer.parseInt(System.getProperty("points"));
-        for (int n : new int[]{ /*100, 1000,*/ 20000}) {
-            List<Double> medians = new ArrayList<>();
+        int threads = Integer.parseInt(System.getProperty("threads"));
+        int points = Integer.parseInt(System.getProperty("points"));
+        System.out.println("N = " + points + ", " + threads + " threads");
+        for (int n : new int[]{ points }) {
             for (int d = 3; d <= 15; ++d) {
-                medians.add(randomCube(n, d, 25, 64, false));
+                for (int ndb: new int[]{64, 128}) {
+                    for (int nda: new int[]{
+                            points / 32 - 50,
+                            points / 16 - 50,
+                            points / 8 - 50,
+                            points / 4 - 50,
+                            points / 2 - 50,
+                            points
+                    }) {
+                        randomCube(n, d, 25, ndb, nda, false);
+                    }
+                    System.out.println();
+                }
+                System.out.println();
             }
-            String s = (String) medians.stream()
-                    .map(x -> String.format("%.2e", x))
-                    .collect(Collectors.joining(", "));
-            System.out.println("{\n    name: " + ",\n" + "    data: [" + s + "]\n},");
             System.out.println("    ------------------------------------");
         }
     }
