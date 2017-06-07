@@ -2,9 +2,9 @@
 \caption{Процедура SplitBy. Разделение точек из $S$ на три подмножества по $k$-му критерию относительно значения $m$.}\label{lst0}
 \begin{algorithmic}
 \Procedure{SplitBy}{S, m, k}
-    \State $L \gets \{s \in S|s_k < m\}$
-    \State $M \gets \{s \in S|s_k = m\}$
-    \State $H \gets \{s \in S|s_k > m\}$
+    \State $L \gets \{s \in S\mid s_k < m\}$
+    \State $M \gets \{s \in S\mid s_k = m\}$
+    \State $H \gets \{s \in S\mid s_k > m\}$
 \EndProcedure
 \end{algorithmic}
 \end{algorithm}
@@ -12,7 +12,7 @@
 \begin{algorithm}[!h]
 \caption{Процедура NDHelperA. Определение рангов точек из $S$ по $k$ первым критериям.}\label{lst1}
 \begin{algorithmic}
-\Procedure{NDHelperA}{$S, k$}
+\Procedure{NDHelperA}{S, k}
     \If{$|S| < 2$}
         \State \Return
     \ElsIf{$|S| = 2$}
@@ -21,16 +21,16 @@
             \State $RANK(S^{(2)})\gets \max\{RANK(S^{(2)}), RANK(S^{(1)})+1\}$ 
         \EndIf
     \ElsIf{$k = 2$}
-        \State$SweepA(S)$
-    \ElsIf{$|\{s_k | s \in S\}| = 1$}
-        \State$NDHelperA(S, k-1)$
+        \State$\textsc{SweepA}(S)$
+    \ElsIf{$|\{s_k \mid s \in S\}| = 1$}
+        \State $\textsc{NDHelperA}(S, k-1)$
     \Else
-        \State $L,M,H \gets SplitBy(S, median\{s_k|s \in S\}, k)$
-        \State $NDHelperA(L, k)$
-        \State $NDHelperB(L, M, k-1)$
-        \State $NDHelperA(M, k-1)$
-        \State $NDHelperB(L \cup M, H, k-1)$
-        \State $NDHelperA(H, k)$
+        \State $L,M,H \gets \textsc{SplitBy}(S, median\{s_k\mid s \in S\}, k)$
+        \State $\textsc{NDHelperA}(L, k)$
+        \State $\textsc{NDHelperB}(L, M, k-1)$
+        \State $\textsc{NDHelperA}(M, k-1)$
+        \State $\textsc{NDHelperB}(L \cup M, H, k-1)$
+        \State $\textsc{NDHelperA}(H, k)$
     \EndIf
 \EndProcedure
 \end{algorithmic}
@@ -39,7 +39,7 @@
 \begin{algorithm}[!h]
 \caption{Процедура NDHelperB. Назначение рангов точкам из $H$ относительно точек из $L$ по $k$ первым критериям.}\label{lst2}
 \begin{algorithmic}
-\Procedure{NDHelperB}{$L, H, k$}
+\Procedure{NDHelperB}{L, H, k}
     \If{$|L| = 0$ or $|H| = 0$}
         \State \Return
     \ElsIf{$|L| = 1$ or $|H| = 1$}
@@ -49,18 +49,18 @@
             \EndIf
         \EndFor
     \ElsIf{$k = 2$}
-        \State $SweepB(L, H)$
-    \ElsIf{$ max\{l_k|l \in L\} \leq min\{h_k|h \in H\}$}
-        \State $NDHelperB(L, H, k-1)$
+        \State $\textsc{SweepB}(L, H)$
+    \ElsIf{$ \max\{l_k\mid l \in L\} \leq \min\{h_k\mid h \in H\}$}
+        \State $\textsc{NDHelperB}(L, H, k-1)$
     \Else
-        \State $m \gets median\{s_k|s \in L \cup H\}$
-        \State $L_1, M_1, H_1 \gets SplitBy(L, m, k)$
-        \State $L_2, M_2, H_2 \gets SplitBy(H, m, k)$
-        \State $NDHelperB(L_1, L_2, k)$
-        \State $NDHelperB(L_1, M_2, k-1)$
-        \State $NDHelperB(M_1, M_2, k-1)$
-        \State $NDHelperB(L_1 \cup M_1, H_2, k-1)$
-        \State $NDHelperB(H_1, H_2, k)$
+        \State $m \gets median\{s_k\mid s \in L \cup H\}$
+        \State $L_1, M_1, H_1 \gets \textsc{SplitBy}(L, m, k)$
+        \State $L_2, M_2, H_2 \gets \textsc{SplitBy}(H, m, k)$
+        \State $\textsc{NDHelperB}(L_1, L_2, k)$
+        \State $\textsc{NDHelperB}(L_1, M_2, k-1)$
+        \State $\textsc{NDHelperB}(M_1, M_2, k-1)$
+        \State $\textsc{NDHelperB}(L_1 \cup M_1, H_2, k-1)$
+        \State $\textsc{NDHelperB}(H_1, H_2, k)$
     \EndIf
 \EndProcedure
 \end{algorithmic}
